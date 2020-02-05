@@ -448,5 +448,6 @@
 }
 
 #OnBoarding_Process div.option-payment:hover {
+    color: inherit;
 }
 

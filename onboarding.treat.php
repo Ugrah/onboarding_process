@@ -247,8 +247,8 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
                         </table>';
         
         $paymentOptions = '<div class="flex-container">
-                                <div class="">
-                                    <img src="Ooption-paymentnBoarding/img/visa-mastercard-logo.png" />
+                                <div class="option-payment">
+                                    <img src="OnBoarding/img/visa-mastercard-logo.png" />
                                 </div>
                                 <div class="option-payment">
                                     <img src="OnBoarding/img/fatourati_2.jpg" />
