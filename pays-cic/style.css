@@ -1,0 +1,100 @@
+/* afrique */
+.af{opacity: 0;
+}
+.afrique:hover ~use.af{
+  fill: #CC2127;
+  opacity: 1;
+  animation : animate 1.2s;
+}
+
+.afrique:hover{fill : #CC2127;cursor:pointer;
+
+}
+
+/* europe */
+
+.eu{opacity : 0;}
+.europe:hover ~use.eu{
+  opacity: 1;
+  animation : animate 1.2s;
+}
+.europe:hover{fill : #CC2127;cursor:pointer;}
+
+
+/* asie */
+.asie{opacity: 0;}
+
+.ac{opacity: 0;}
+
+.mo{opacity : 0;}
+
+
+
+.asieContinent:hover ~use.asie{
+  opacity: 1;
+  animation : animate 1.2s;
+}
+
+.asieContinent:hover ~use.ac{
+  opacity: 1;
+  animation : animate 1.2s;
+}
+
+.asieContinent:hover ~use.mo{
+  opacity: 1;
+  animation : animate 1.2s;
+}
+
+.asieContinent:hover{fill : #CC2127;  
+  visibility: visible;cursor:pointer;
+}
+
+/* amerique */
+
+.am{opacity: 0;}
+
+.amerique:hover ~use.am{
+  opacity: 1;
+  visibility: visible;
+  animation : animate 1.2s;
+
+}
+
+
+
+.amerique:hover{fill : #CC2127;cursor:pointer;}
+
+/* australie */
+
+.australie:hover{fill : #CC2127;cursor:pointer;}
+
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+     fill : none;
+     stroke-dashoffset: 3000;
+  }
+
+
+  30% {
+     opacity : 0.3;
+     fill : none;
+     stroke-dashoffset: 2100;
+     
+  }
+ 
+  60% {
+    opacity : 0.6;
+     stroke-dashoffset: 1200;
+  }
+  100% {
+    opacity : 1;
+     stroke-dashoffset: 0;
+
+
+  }
+
+}
+
+

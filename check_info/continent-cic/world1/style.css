@@ -1,0 +1,58 @@
+
+.af{opacity: 0;}
+.afrique:hover ~use.af{
+  fill: #CC2127;
+  opacity: 1;
+
+}
+
+.eu{opacity : 0;}
+.europe:hover ~use.eu{
+  opacity: 1;
+
+}
+
+.asie{display : none;}
+
+.ac{display : none;}
+
+.mo{display : none;}
+
+
+
+.asieContinent:hover ~use{
+  display: block;
+  visibility: visible;
+
+}
+
+
+.am{opacity: 0;}
+
+.amerique:hover ~use.am{
+  opacity: 1;
+  visibility: visible;
+
+}
+
+.amerique:hover ~use.all{
+  visibility: visible;
+
+}
+
+
+
+
+.asieContinent:hover{fill : #CC2127;  
+  visibility: visible;
+
+}
+
+.afrique:hover{fill : #CC2127;  visibility: visible;
+}
+
+.europe:hover{fill : #CC2127;}
+
+.australie:hover{fill : #CC2127;}
+
+.amerique:hover{fill : #CC2127;}

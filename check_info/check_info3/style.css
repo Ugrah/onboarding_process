@@ -1,0 +1,210 @@
+.st0{fill:#C7373C;}
+.st1{fill:#CDCDCD;}
+.st2{fill:#CDCDCD;}
+.st3{fill:#CDCDCD;}
+.st4{fill:#CDCDCD;}
+.st5{fill:#CDCDCD;}
+.st6{fill:#CDCDCD;}
+.st7{fill:#CDCDCD;}
+.st8{fill:#CDCDCD;}
+.st9{fill:#CDCDCD;}
+.st10{fill:#CDCDCD;}
+.st11{fill:#CDCDCD;}
+
+.sti{fill:#C7373C;}
+.stn{fill:#C7373C;}
+.stf{fill:#C7373C;}
+.sto{fill:#C7373C;}
+
+
+
+
+html{
+   margin :0;
+   padding :0;
+}
+
+body {
+ margin: 0;
+ padding : 0;
+ width : 100%;
+ text-align: center;
+ background-size: cover;
+ display :table;   
+}
+
+.wrapper{
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   transform: translate(-25%, -25%);
+   
+   width: 100%;
+}
+
+path.st0 {
+ stroke: #C7373C;
+ fill: #C7373C;
+ stroke-dasharray: 1800;
+ animation : animate 1.2s cubic-bezier(.25,.1,.25,1)
+}
+
+path.st10 {
+   stroke: #CDCDCD;
+   fill: #CDCDCD;
+   stroke-dasharray: 1800;
+   animation : animate 0.2s cubic-bezier(0,0.23,1,.1),couleur 0.2s;
+}
+
+path.st9 {
+   stroke: #CDCDCD;;
+   fill: #CDCDCD;;
+   stroke-dasharray: 1800;
+   animation : animate 0.3s cubic-bezier(0,0.23,1,.1),couleur 0.3s;
+  }
+
+  path.st8 {
+   stroke: #CDCDCD;;
+   fill: #CDCDCD;;
+   stroke-dasharray: 1800;
+   animation : animate 0.4s cubic-bezier(0,0.23,1,.1),couleur 0.4s;
+  }
+
+  path.st7{
+   stroke: #CDCDCD;;
+   fill: #CDCDCD;;
+   stroke-dasharray: 1800;
+   animation : animate 0.5s cubic-bezier(0,0.23,1,.1),couleur 0.5s; 
+  }
+  path.st6{
+   stroke: #CDCDCD;;
+   fill: #CDCDCD;;
+   stroke-dasharray: 1800;
+   animation : animate 0.6s cubic-bezier(0,0.23,1,.1),couleur 0.6s; 
+  }
+  path.st5{
+   stroke: #CDCDCD;;
+   fill: #CDCDCD;;
+   stroke-dasharray: 1800;
+   animation : animate 0.7s cubic-bezier(0,0.23,1,.1),couleur 0.7s; 
+  }
+  path.st4{
+   stroke: #CDCDCD;;
+   fill: #CDCDCD;;
+   stroke-dasharray: 1800;
+   animation : animate 0.8s cubic-bezier(0,0.23,1,.1),couleur 0.8s; 
+  }
+  path.st3{
+   stroke: #CDCDCD;;
+   fill: #CDCDCD;;
+   stroke-dasharray: 1800;
+   animation : animate 0.9s cubic-bezier(0,0.23,1,.1),couleur 0.9s; 
+  }
+  
+  
+  path.st1{
+   stroke: #CDCDCD;;
+   fill: #CDCDCD;;
+   stroke-dasharray: 1800;
+   animation : animate 1s cubic-bezier(0,0.23,1,.1),couleur 1s;  
+  }
+ 
+  path.st11{
+   stroke: #C7373C;
+   fill: #C7373C;
+   stroke-dasharray: 1800;
+   animation : animate 1.1s cubic-bezier(0,0.23,1,.1),couleur 1.1s; 
+  }
+  path.st2{
+   stroke: #CDCDCD;;
+   fill: #CDCDCD;;
+   stroke-dasharray: 1800;
+   animation : animate 1.2s cubic-bezier(0,0.23,1,.1),couleur 1.2s; 
+  }
+
+ 
+
+@keyframes couleur { 
+   100%{ 
+      fill: #C7373C;
+   }
+}
+
+@keyframes animate {
+   0% {
+      opacity : 0;
+      fill : none;
+      stroke-dashoffset: 3000;
+   }
+
+
+   30% {
+      opacity : 0;
+      fill : none;
+      stroke-dashoffset: 2100;
+      
+   }
+  
+   60% {
+      stroke-dashoffset: 1200;
+   }
+   100% {
+      fill : rgba(255,255,255,0);
+      stroke-dashoffset: 0;
+
+
+   }
+}
+
+
+g.check{
+    stroke: black;;
+    fill: black;
+    stroke-dasharray: 2100;
+    animation : animate1 1.6s cubic-bezier(0,0.23,1,.1); 
+   }
+
+   polygon.sti{
+      stroke: #C7373C;
+      fill: #C7373C;
+      stroke-dasharray: 2100;
+      animation : animate1 1.6s cubic-bezier(0,0.23,1,.1); 
+     }
+
+     polygon.stn{
+      stroke: #C7373C;
+      fill: #C7373C;
+      stroke-dasharray: 2100;
+      animation : animate1 1.6s cubic-bezier(0,0.23,1,.1); 
+     }
+
+     polygon.stf{
+      stroke: #C7373C;
+      fill: #C7373C;
+      stroke-dasharray: 2100;
+      animation : animate1 1.6s cubic-bezier(0,0.23,1,.1); 
+     }
+
+     path.sto{
+      stroke: #C7373C;
+      fill: #C7373C;
+      stroke-dasharray: 2100;
+      animation : animate1 1.6s cubic-bezier(0,0.23,1,.1); 
+     }
+
+  
+
+   @keyframes animate1 {
+    0% {
+       opacity : 0;
+       fill : none;
+       stroke-dashoffset: 3000;
+    }
+ 
+    100% {
+       fill : rgba(255,255,255,0);
+       stroke-dashoffset: 0;
+ 
+ 
+    }
+ }
