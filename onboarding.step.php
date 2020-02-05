@@ -30,6 +30,8 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
 
     $step = intval($_POST['step']);
 
+    // var_dump($_POST); exit();
+
     switch ($step) {
         case 0:
             $ice = $_POST['ice'];
@@ -280,25 +282,39 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
             $response['items'] = $items;
             echo json_encode($response);
             break;
-        case 5:
+        case 6:
             // Get all input in the form
-            $termsOfService = intval($_POST['accepted']);
+            $choiceA = intval($_POST['choiceACheck']);
+            $choiceB = intval($_POST['choiceBCheck']);
+            $choiceC = intval($_POST['choiceCCheck']);
+            $choiceS = intval($_POST['choiceSCheck']);
 
             $items = [];
+            $_SESSION['subscriptionChoice'] = [];
             
             // Check input value status and build response
-            if($termsOfService == 1) {
+            if($choiceA || $choiceB || $choiceC || $choiceS) {
                 $status = true;
-                $_SESSION['termsOfService'] = true;
+                if(!empty($choiceA)) $_SESSION['subscriptionChoice'][] = ['id' => 'A', 'name' => 'Choise A', 'amount' => 1250, 'managementFees' => 250, 'canal' => 'Multicanal', 'volume' => 100];
+                if(!empty($choiceB)) $_SESSION['subscriptionChoice'][] = ['id' => 'B', 'name' => 'Choise B', 'amount' => 4750, 'managementFees' => 250, 'canal' => 'Multicanal', 'volume' => 500];
+                if(!empty($choiceC)) $_SESSION['subscriptionChoice'][] = ['id' => 'C', 'name' => 'Choise C', 'amount' => 8250, 'managementFees' => 250, 'canal' => 'Multicanal', 'volume' => 1000];
+                if(!empty($choiceS)) $_SESSION['subscriptionChoice'][] = ['id' => 'S', 'name' => 'Choise S', 'amount' => 'PO(2)', 'managementFees' => 250, 'canal' => 'SVI', 'volume' => '-'];
             } else {
                 $status = false;
-                $items['termsOfServiceError'] = 'Veuillez lire et accepter les conditions d\'utilisation pour profiter de nos services';
+                $items['subscriptionChoiceError'] = 'Veuillez choisir au moins une des offres de la liste';
                 $response['hideStep'] = true;
             }
             // Prepare response 
             $response['lastStep'] = false;
             $response['status'] = $status;
             $response['items'] = $items;
+            echo json_encode($response);
+            break;
+        case 7:
+            // Prepare response 
+            $response['lastStep'] = false;
+            $response['status'] = true;
+            $response['items'] = [];
             echo json_encode($response);
             break;
     }

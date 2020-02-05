@@ -400,7 +400,7 @@
                                             </div>
 
                                             <!-- Block form step 5 -->
-                                            <div id="step-5" class="team team_list clearfix" style="display: none" data-hidden-step="1">
+                                            <div id="step-5" class="team team_list clearfix" style="display: none" data-hidden-step="1" data-terms-service="1">
                                                 <div class="column one-third">
                                                     <div class="image_frame no_link scale-with-grid">
                                                         <div class="image_wrapper">
@@ -421,7 +421,7 @@
                                             </div>
 
                                             <!-- Block form step 6 -->
-                                            <div id="step-6" class="team team_list clearfix" style="display: none">
+                                            <div id="step-6" class="team team_list clearfix" style="display: none" data-hidden-step="1">
                                                 <div class="column one-third">
                                                     <div class="image_frame no_link scale-with-grid">
                                                         <div class="image_wrapper">
@@ -433,49 +433,106 @@
                                                 </div>
                                                 <div class="column two-third">
                                                     <div class="desc_wrapper">
-                                                        <h4 class="subtitle">Conditions d'utilisation du service</h4>
+                                                        <h4 class="subtitle">Choix de l'abonnement</h4>
                                                         <hr class="hr_color">
                                                         <div class="desc">
                                                             <form id="step-form-6" action="" method="POST" enctype="multipart/form-data" autocomplete="off">
-                                                                <input type="hidden" name="step" value="3">
-                                                                <input type="hidden" name="companyStatus" value="company">
+                                                                <input type="hidden" name="step" value="6">
+                                                                <input type="hidden" name="choiceACheck" value="0">
+                                                                <input type="hidden" name="choiceBCheck" value="0">
+                                                                <input type="hidden" name="choiceCCheck" value="0">
+                                                                <input type="hidden" name="choiceSCheck" value="1">
 
-                                                                <div class="vous__">
-                                                                    <div class="vous__stat vous__ste active" data-company="company">
-                                                                        <i class="icofont-building-alt"></i>
-                                                                        <p>Societe</p>
-                                                                    </div>
-                                                                    <div class="vous__stat vous__libre" data-company="liberal">
-                                                                        <i class="icofont-bag-alt"></i>
-                                                                        <p>Profession liberale</p>
-                                                                    </div>
-                                                                    <div class="vous__stat vous__auto" data-company="selfEmployed">
-                                                                        <i class="icofont-businessman"></i>
-                                                                        <p>Auto-entrepreneur</p>
-                                                                    </div>
-                                                                </div>
 
                                                                 <div class="both__input">
                                                                     <div class="credit__input credit__select">
-                                                                        <label for="activityArea">Secteur d'activité</label>
-                                                                        <select name="activityArea" id="activityArea">
-                                                                        </select>
-                                                                        <span id="activityAreaError" class="msg-info"></span>
-                                                                    </div>
-                                                                    <div class="credit__input credit__select">
-                                                                        <label for="branch">Branche</label>
-                                                                        <select name="branch" id="branch">
-                                                                        </select>
-                                                                        <span id="branchError" class="msg-info"></span>
-                                                                    </div>
-                                                                    <div class="credit__input credit__select">
-                                                                        <label for="subBranch">Sous-branche</label>
-                                                                        <select name="subBranch" id="sub-branch">
-                                                                        </select>
-                                                                        <span id="subBranchError" class="msg-info"></span>
+                                                                        <label>Merci de procéder au choix de votre abonnement</label>
+                                                                        <table>
+                                                                            <tr>
+                                                                                <th>#</th>
+                                                                                <th>Volume</th>
+                                                                                <th>Montant HT</th>
+                                                                                <th>Frais de gestion</th>
+                                                                                <th>Canal</th>
+                                                                                <th>Choix</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>A</td>
+                                                                                <td>100</td>
+                                                                                <td>1.250</td>
+                                                                                <td>250</td>
+                                                                                <td>Multicanal</td>
+                                                                                <td>
+                                                                                    <input type="checkbox" id="choiceA" class="choice" name="choiceA">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>B</td>
+                                                                                <td>500</td>
+                                                                                <td>4.750</td>
+                                                                                <td>250</td>
+                                                                                <td>Multicanal</td>
+                                                                                <td>
+                                                                                    <input type="checkbox" id="choiceB" class="choice" name="choiceB">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>C</td>
+                                                                                <td>1000</td>
+                                                                                <td>8.250</td>
+                                                                                <td>250</td>
+                                                                                <td>Multicanal</td>
+                                                                                <td>
+                                                                                    <input type="checkbox" id="choiceC" class="choice" name="choiceC">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>S</td>
+                                                                                <td>-</td>
+                                                                                <td>PO<sup style="color: red">(2)</sup></td>
+                                                                                <td>250</td>
+                                                                                <td>SVI</td>
+                                                                                <td>
+                                                                                    <input type="checkbox" id="choiceS" class="choice" name="choiceS" checked>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <span id="subscriptionChoiceError" class="msg-info"></span>
                                                                     </div>
                                                                 </div>
+
+                                                                <div class="column_attr clearfix align_center">
+                                                                    <!-- <a class="button button_left button_size_2 button_js trigger-next-step" href="#" onclick="setAccepted(\'0\')">
+                                                                        <span class="button_icon"><i class="icon-left"></i></span>
+                                                                        <span class="button_label">Refuser</span>
+                                                                    </a> -->
+                                                                    <a class="button button_right button_size_2 button_js kill_the_icon trigger-next-step" href="#">
+                                                                        <span class="button_icon"><i class="icon-right"></i></span>
+                                                                        <span class="button_label">Valider</span>
+                                                                    </a>
+                                                                </div>
                                                             </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Block form step 7 -->
+                                            <div id="step-7" class="team team_list clearfix" style="display: none" data-payment-summary="1">
+                                                <div class="column one-third">
+                                                    <div class="image_frame no_link scale-with-grid">
+                                                        <div class="image_wrapper">
+                                                            <span class="icon single_icon icon_center themecolor">
+                                                                <i class="icon-user" style="font-size: 10em"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column two-third">
+                                                    <div class="desc_wrapper">
+                                                        <h4 class="subtitle">Récapitulatif de l'abonnement</h4>
+                                                        <hr class="hr_color">
+                                                        <div class="desc">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -560,8 +617,6 @@
     <script type="text/javascript">
         jQuery(function($) {
 
-            
-
             // $(window).scroll(function() {
             //     if ($('input[name="email"]').visible(true)) {
             //         // The element is visible, do something
@@ -573,7 +628,7 @@
             // });
 
             var step = 0;
-            var maxStep = 6;
+            var maxStep = 8;
 
             /**
              * Get cities list 
@@ -719,9 +774,11 @@
 
             showPreviousStepButton = function () {
                 if(step <= 0) {
-                $('a#previous-step').hide();
+                    $('a#previous-step').hide();
                 } else {
                     $('a#previous-step').show();
+                    $(`div#step-${step}`).find('div.step-pause').show();
+
                 }
             }
 
@@ -760,7 +817,9 @@
                 form.closest('div.desc').append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/spinner-loarder.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
                 
 				// Hide the current form
-				form.hide();
+                if( (typeof form.attr('data-stay-display') === typeof undefined) && (form.attr('data-stay-display') === false) ) {
+                    form.hide();
+                }
 
 				//Send Ajex request to save information 
 				var formData = new FormData(form[0]);
@@ -817,6 +876,8 @@
                             // Display all informations saved
                         } else {
                             if(response.status) {
+                                $(`div#step-${step}`).find('div.step-pause').hide();
+
                                 step ++;
                                 $(`div#step-${step}`).fadeIn('slow'); 
                                 // $("html, body").animate({ scrollTop: ($(`div#step-${step}`).height() + $('body').scrollTop()) }, 1000);
@@ -826,9 +887,16 @@
                                 }
 
                                 if( (typeof $(`div#step-${step}`).attr('data-hidden-step') !== typeof undefined) && ($(`div#step-${step}`).attr('data-hidden-step') !== false) ) {
-                                    getTermsOfService( $(`div#step-${step}`) )
+                                    $('div#nextAndPreviousStepButtons').fadeOut();
                                 }
 
+                                if( (typeof $(`div#step-${step}`).attr('data-terms-service') !== typeof undefined) && ($(`div#step-${step}`).attr('data-terms-service') !== false) ) {
+                                    getTermsOfService( $(`div#step-${step}`) );
+                                }
+
+                                if( (typeof $(`div#step-${step}`).attr('data-payment-summary') !== typeof undefined) && ($(`div#step-${step}`).attr('data-tpayment-summary') !== false) ) {
+                                    getPaymentSummary( $(`div#step-${step}`) );
+                                }
                             }
                             showPreviousStepButton();
                         }
@@ -884,6 +952,31 @@
 					success : function(data) {
                         content = data;
                         if(content) $('div#nextAndPreviousStepButtons').fadeOut();
+					},
+                    error: function() {
+                    },
+					complete: function() {
+                        $divStepElmt.find('div.loader').remove();
+                        $divStepElmt.find('div.desc').html(content);
+					}
+				});
+            }
+
+            getPaymentSummary = function($divStepElmt) {
+                if(!$divStepElmt) return false;
+
+                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/spinner-loarder.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+
+                var content;
+
+                $.ajax({
+					url : 'onboarding.treat.php',
+					type : 'POST',
+                    data: {
+                        action: 'getPaymentSummary',
+                    },
+					success : function(data) {
+                        content = data;
 					},
                     error: function() {
                     },
@@ -1035,10 +1128,16 @@
                 $('div#nextAndPreviousStepButtons').fadeIn();
             });
 
+            // Step 6 
+            $('input.choice').each(function(index, value) {
+                $(`input[name="${$(this).attr('name')}Check"]`).val( $(this).is(':checked') ? 1 : 0);
+            }).change(function(e) {
+                $(`input[name="${$(this).attr('name')}Check"]`).val( $(this).is(':checked') ? 1 : 0);
+            });
+
             getCities('select#city', 'select#region');
             getCities('select#summaryCity', 'select#summaryRegion');
             getActivityArea('select#activityArea', 'select#branch', 'select#sub-branch');
-
         });
     </script>
 

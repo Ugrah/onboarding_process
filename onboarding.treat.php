@@ -85,7 +85,7 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
 
                         <br><br>
 
-                        <div class="column_attr clearfix align_center">
+                        <div class="column_attr clearfix align_center step-pause">
                             <a id="back-step" class="button button_left button_size_2 button_js trigger-previous-step" href="#">
                                 <span class="button_icon"><i class="icon-left"></i></span>
                                 <span class="button_label">Revenir</span>
@@ -101,7 +101,7 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
     }
 
     if($action == 'getTermsOfService') {
-        $content = '<form id="step-form-5" action="" method="POST" enctype="multipart/form-data" autocomplete="off">
+        $content = '<form id="step-form-5" action="" method="POST" enctype="multipart/form-data" autocomplete="off" data-stay-display="1">
                         <input type="hidden" name="step" value="5">
                         <input id="acceptedTermsOfService" type="hidden" name="accepted" value="0">
 
@@ -113,7 +113,7 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
                             <span id="termsOfServiceError" class="msg-info"></span>
                         </div>
 
-                        <div class="column_attr clearfix align_center">
+                        <div class="column_attr clearfix align_center step-pause">
                             <a class="button button_left button_size_2 button_js trigger-next-step" href="#" onclick="setAccepted(\'0\')">
                                 <span class="button_icon"><i class="icon-left"></i></span>
                                 <span class="button_label">Refuser</span>
@@ -130,6 +130,83 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
                             }
                         </script>
                     </form>';
+
+        echo $content;
+    }
+
+    if($action == 'getPaymentSummary') {
+
+        $abonnement = '';
+
+        foreach($_SESSION['subscriptionChoice'] as $subscriptionChoise) {
+            $abonnement .= '<tr>
+                                <td>'.$subscriptionChoise['id'].'</td>
+                                <td>'.$subscriptionChoise['volume'].'</td>
+                                <td>'.$subscriptionChoise['amount'].'</td>
+                                <td>'.$subscriptionChoise['managementFees'].'</td>
+                                <td>'.$subscriptionChoise['canal'].'</td>
+                                <td>
+                                    <i class="icon-pocket"></i>
+                                </td>
+                            </tr>';
+        }
+
+        $littleTable = '<table>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Récapitulatif du paiement</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="left">Abonnement</td>
+                                    <td>S</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Montant HT</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Frais de gestion</td>
+                                    <td>S</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Total HT</td>
+                                    <td>S</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">TVA (20%)</td>
+                                    <td>S</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Montant total TTC</td>
+                                    <td>300</td>
+                                </tr>
+                            </tbody>
+                        </table>';
+
+        $content = '<form id="step-form-7" action="" method="POST" enctype="multipart/form-data" autocomplete="off" data-stay-display="1">
+                        <input type="hidden" name="step" value="7">
+
+                        <div class="both__input">
+                            <div class="credit__input credit__select">
+                                <label>Nous vous remercions pour le choix d\'abonnement de la formule suivante :</label>
+                                <table>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Volume</th>
+                                        <th>Montant HT</th>
+                                        <th>Frais de gestion</th>
+                                        <th>Canal</th>
+                                        <th>Choix</th>
+                                    </tr>
+                                    '.$abonnement.'
+                                </table>
+                            </div>
+                        </div>
+                    </form>';
+
+            $content .= $littleTable;
 
         echo $content;
     }
