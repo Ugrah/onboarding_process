@@ -572,38 +572,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div id="subscribeRapport" class="wrap mcb-wrap one employment-shadow column-margin-20px valign-top clearfix" style="padding:60px 50px 40px; background-color:#fff; margin-top:-120px; display: none">
-                                    <div class="items_group clearfix">
-                                        <div class="column one column_column">
-                                            <h4>Félicitations</h4>
-                                            <p>
-                                                Votre abonnement est désormais actif.
-                                                Vous recevrez par email : 
-                                                <ul>
-                                                    <li>Votre login et mot de passe pour la connexion à votre espace client</li>
-                                                    <li>Votre login et mot de passe pour l'accès aux services de vérification de chèque</li>
-                                                </ul>
-                                            </p>
-
-                                            <p>
-                                                En cas de besoin d'un renseignement n'hésitez pas à nous contacter :
-                                                <ul>
-                                                    <li>A partir d'un mobile - 4444</li>
-                                                    <li>A partir d'un fixe - 080 203 4444</li>
-                                                </ul>
-                                            </p>
-                                        </div>
-
-                                        <div class="column one column_column">
-                                            <div class="column_attr align_center">
-                                                <p>
-                                                    Pour accèder à votre espace client merci de cliquer sur le lien suivant : 
-                                                    <a class="" href="./"><span class="button_label">Cliquez-ici</span></a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="wrap mcb-wrap one valign-top clearfix">
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_divider">
@@ -891,7 +859,7 @@
                         // Show finish modal when it was last step 
                         if(response.lastStep && response.status) {
                             // $('div#subscribeRapport').show();
-                            // Redirection
+                            window.location.replace("./onboarding.payment.php");
                         } else {
                             if(response.status) {
                                 $(`div#step-${step}`).find('div.step-pause').hide();

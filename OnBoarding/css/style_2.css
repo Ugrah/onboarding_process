@@ -451,3 +451,32 @@
     color: inherit;
 }
 
+/* Payment page */
+table.payment {
+    border-collapse: collapse !important;
+}
+table.payment tr {
+    background-color: none !important;
+}
+
+table.payment tr {
+    background-color: inherit !important;
+}
+
+table.payment tr td {
+    color: inherit !important;
+    text-align: left !important;
+}
+
+table.payment tr td.right {
+    text-align: right !important;
+}
+
+table.payment tr td.left, table.payment tr th.left {
+    text-align: left !important;
+}
+
+table.payment td, table.payment tbody, table.payment tbody, table.payment thead th, table.payment tbody td {
+    border: hidden !important;
+}
+
