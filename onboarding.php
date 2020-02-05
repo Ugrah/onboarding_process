@@ -436,7 +436,7 @@
                                                         <h4 class="subtitle">Choix de l'abonnement</h4>
                                                         <hr class="hr_color">
                                                         <div class="desc">
-                                                            <form id="step-form-6" action="" method="POST" enctype="multipart/form-data" autocomplete="off">
+                                                            <form id="step-form-6" action="" method="POST" enctype="multipart/form-data" autocomplete="off" data-stay-display="1">
                                                                 <input type="hidden" name="step" value="6">
                                                                 <input type="hidden" name="choiceACheck" value="0">
                                                                 <input type="hidden" name="choiceBCheck" value="0">
@@ -501,7 +501,7 @@
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="column_attr clearfix align_center">
+                                                                <div class="column_attr clearfix align_center step-pause">
                                                                     <!-- <a class="button button_left button_size_2 button_js trigger-next-step" href="#" onclick="setAccepted(\'0\')">
                                                                         <span class="button_icon"><i class="icon-left"></i></span>
                                                                         <span class="button_label">Refuser</span>
@@ -531,6 +531,27 @@
                                                 <div class="column two-third">
                                                     <div class="desc_wrapper">
                                                         <h4 class="subtitle">Récapitulatif de l'abonnement</h4>
+                                                        <hr class="hr_color">
+                                                        <div class="desc">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Block form step 8 -->
+                                            <div id="step-8" class="team team_list clearfix" style="display: none" data-payment="1">
+                                                <div class="column one-third">
+                                                    <div class="image_frame no_link scale-with-grid">
+                                                        <div class="image_wrapper">
+                                                            <span class="icon single_icon icon_center themecolor">
+                                                                <i class="icon-user" style="font-size: 10em"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column two-third">
+                                                    <div class="desc_wrapper">
+                                                        <h4 class="subtitle">Paiement</h4>
                                                         <hr class="hr_color">
                                                         <div class="desc">
                                                         </div>
@@ -817,7 +838,7 @@
                 form.closest('div.desc').append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/spinner-loarder.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
                 
 				// Hide the current form
-                if( (typeof form.attr('data-stay-display') === typeof undefined) && (form.attr('data-stay-display') === false) ) {
+                if( (typeof form.attr('data-stay-display') === typeof undefined) || (form.attr('data-stay-display') === false) ) {
                     form.hide();
                 }
 
@@ -869,11 +890,8 @@
 
                         // Show finish modal when it was last step 
                         if(response.lastStep && response.status) {
-                            // hide next and previous buttons
-                            $('div#subscribeStep').hide();
-                            $('div#subscribeRapport').show();
-
-                            // Display all informations saved
+                            // $('div#subscribeRapport').show();
+                            // Redirection
                         } else {
                             if(response.status) {
                                 $(`div#step-${step}`).find('div.step-pause').hide();
@@ -896,6 +914,10 @@
 
                                 if( (typeof $(`div#step-${step}`).attr('data-payment-summary') !== typeof undefined) && ($(`div#step-${step}`).attr('data-tpayment-summary') !== false) ) {
                                     getPaymentSummary( $(`div#step-${step}`) );
+                                }
+
+                                if( (typeof $(`div#step-${step}`).attr('data-payment') !== typeof undefined) && ($(`div#step-${step}`).attr('data-tpayment') !== false) ) {
+                                    getPayment( $(`div#step-${step}`) );
                                 }
                             }
                             showPreviousStepButton();
@@ -974,6 +996,31 @@
 					type : 'POST',
                     data: {
                         action: 'getPaymentSummary',
+                    },
+					success : function(data) {
+                        content = data;
+					},
+                    error: function() {
+                    },
+					complete: function() {
+                        $divStepElmt.find('div.loader').remove();
+                        $divStepElmt.find('div.desc').html(content);
+					}
+				});
+            }
+
+            getPayment = function($divStepElmt) {
+                if(!$divStepElmt) return false;
+
+                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/spinner-loarder.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+
+                var content;
+
+                $.ajax({
+					url : 'onboarding.treat.php',
+					type : 'POST',
+                    data: {
+                        action: 'getPayment',
                     },
 					success : function(data) {
                         content = data;
@@ -1122,7 +1169,7 @@
                 $('div#nextAndPreviousStepButtons').fadeIn();
             });
 
-            $('body div.desc').on('click', 'form a.trigger-next-step', function(e){
+            $('body div.desc').on('click', 'form a.trigger-next-step, form div.option-payment', function(e){
                 e.preventDefault();
                 $('a#next-step').trigger('click');
                 $('div#nextAndPreviousStepButtons').fadeIn();

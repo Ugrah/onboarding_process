@@ -416,17 +416,37 @@
     width: 100%;
 }
   
-td, th {
+#OnBoarding_Process table td, #OnBoarding_Process table th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
 
-tr td {
+#OnBoarding_Process table tr td {
     color: inherit !important;
 }
   
-tr:nth-child(even) {
+#OnBoarding_Process table tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+#OnBoarding_Process .flex-container {
+    display: flex;
+    justify-content: center;
+}
+  
+#OnBoarding_Process .flex-container > div {
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+#OnBoarding_Process div.option-payment {
+    cursor: pointer;
+}
+
+#OnBoarding_Process div.option-payment:hover {
 }
 

@@ -168,15 +168,15 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
                                 </tr>
                                 <tr>
                                     <td align="left">Frais de gestion</td>
-                                    <td>S</td>
+                                    <td>250</td>
                                 </tr>
                                 <tr>
                                     <td align="left">Total HT</td>
-                                    <td>S</td>
+                                    <td>250</td>
                                 </tr>
                                 <tr>
                                     <td align="left">TVA (20%)</td>
-                                    <td>S</td>
+                                    <td>50</td>
                                 </tr>
                                 <tr>
                                     <td align="left">Montant total TTC</td>
@@ -189,7 +189,7 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
                         <input type="hidden" name="step" value="7">
 
                         <div class="both__input">
-                            <div class="credit__input credit__select">
+                            <div>
                                 <label>Nous vous remercions pour le choix d\'abonnement de la formule suivante :</label>
                                 <table>
                                     <tr>
@@ -207,6 +207,63 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
                     </form>';
 
             $content .= $littleTable;
+
+        echo $content;
+    }
+
+    if($action == 'getPayment') {
+        $littleTable = '<table>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Récapitulatif du paiement</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="left">Abonnement</td>
+                                    <td>S</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Montant HT</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Frais de gestion</td>
+                                    <td>250</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Total HT</td>
+                                    <td>250</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">TVA (20%)</td>
+                                    <td>50</td>
+                                </tr>
+                                <tr>
+                                    <td align="left">Montant total TTC</td>
+                                    <td>300</td>
+                                </tr>
+                            </tbody>
+                        </table>';
+        
+        $paymentOptions = '<div class="flex-container">
+                                <div class="">
+                                    <img src="Ooption-paymentnBoarding/img/visa-mastercard-logo.png" />
+                                </div>
+                                <div class="option-payment">
+                                    <img src="OnBoarding/img/fatourati_2.jpg" />
+                                </div>
+                            </div>';
+
+        $content = '<form id="step-form-8" action="" method="POST" enctype="multipart/form-data" autocomplete="off" data-stay-display="1">
+                        <input type="hidden" name="step" value="8">
+
+                        <div>
+                            '.$littleTable.'
+                            <label>Merci de choisir le mode de paiement</label><br>
+                            '.$paymentOptions.'
+                        </div>
+                    </form>';
 
         echo $content;
     }

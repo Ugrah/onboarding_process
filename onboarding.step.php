@@ -317,5 +317,12 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
             $response['items'] = [];
             echo json_encode($response);
             break;
+        case 8:
+            // Prepare response 
+            $response['lastStep'] = true;
+            $response['status'] = true;
+            $response['items'] = [];
+            echo json_encode($response);
+            break;
     }
 }
