@@ -451,12 +451,8 @@
                                                                 </div>
 
                                                                 <div class="column_attr clearfix align_center step-pause">
-                                                                    <!-- <a class="button button_left button_size_2 button_js trigger-next-step" href="#" onclick="setAccepted(\'0\')">
-                                                                        <span class="button_icon"><i class="icon-left"></i></span>
-                                                                        <span class="button_label">Refuser</span>
-                                                                    </a> -->
                                                                     <a class="button button_right button_size_2 button_js kill_the_icon trigger-next-step" href="#">
-                                                                        <span class="button_icon"><i class="icon-right"></i></span>
+                                                                        <span class="button_icon"><i class="icon-right" style="color: white !important"></i></span>
                                                                         <span class="button_label">Valider</span>
                                                                     </a>
                                                                 </div>
@@ -496,11 +492,11 @@
 
                                             <div id="nextAndPreviousStepButtons" class="column_attr clearfix align_center">
                                                 <a id="previous-step" class="button button_left button_size_2 button_js" href="#">
-                                                    <span class="button_icon"><i class="icon-left"></i></span>
+                                                    <span class="button_icon"><i class="icon-left" style="color: white !important"></i></span>
                                                     <span class="button_label">Previous</span>
                                                 </a>
                                                 <a id="next-step" class="button button_right button_size_2 button_js kill_the_icon" href="#">
-                                                    <span class="button_icon"><i class="icon-right"></i></span>
+                                                    <span class="button_icon"><i class="icon-right" style="color: white !important"></i></span>
                                                     <span class="button_label">Next</span>
                                                 </a>
                                             </div>
@@ -540,16 +536,6 @@
 
     <script type="text/javascript">
         jQuery(function($) {
-
-            // $(window).scroll(function() {
-            //     if ($('input[name="email"]').visible(true)) {
-            //         // The element is visible, do something
-            //         console.log('Input visible');
-            //     } else {
-            //         // The element is NOT visible, do something else
-            //         console.log('Input it\'s not visible');
-            //     }
-            // });
 
             var step = 0;
             var maxStep = 8;
@@ -741,7 +727,7 @@
                 form.find('span.msg-info').text('');
 
                 // Display loader
-                form.closest('div.desc').append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/spinner-loarder.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+                form.closest('div.desc').append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
                 
 				// Hide the current form
                 if( (typeof form.attr('data-stay-display') === typeof undefined) || (form.attr('data-stay-display') === false) ) {
@@ -799,6 +785,7 @@
                         if(response.lastStep && response.status) {
                             // $('div#subscribeRapport').show();
                             window.location.replace("./Onboarding/onboarding.payment.php");
+                            // window.location.replace("?page=payment");
                         } else {
                             if(response.status) {
                                 $(`div#step-${step}`).find('div.step-pause').hide();
@@ -842,7 +829,7 @@
             getAndDisplaySummaryInformations = function($divStepElmt){
                 if(!$divStepElmt) return false;
 
-                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/spinner-loarder.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
 
                 var content;
 
@@ -869,7 +856,7 @@
             getTermsOfService = function($divStepElmt) {
                 if(!$divStepElmt) return false;
 
-                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/spinner-loarder.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
 
                 var content;
 
@@ -895,7 +882,7 @@
             getPaymentSummary = function($divStepElmt) {
                 if(!$divStepElmt) return false;
 
-                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/spinner-loarder.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
 
                 var content;
 
@@ -920,7 +907,7 @@
             getPayment = function($divStepElmt) {
                 if(!$divStepElmt) return false;
 
-                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/spinner-loarder.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
 
                 var content;
 

@@ -87,11 +87,11 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
 
                         <div class="column_attr clearfix align_center step-pause">
                             <a id="back-step" class="button button_left button_size_2 button_js trigger-previous-step" href="#">
-                                <span class="button_icon"><i class="icon-left"></i></span>
+                                <span class="button_icon"><i class="icon-left" style="color: white !important"></i></span>
                                 <span class="button_label">Revenir</span>
                             </a>
                             <a id="validate-step" class="button button_right button_size_2 button_js kill_the_icon trigger-next-step" href="#">
-                                <span class="button_icon"><i class="icon-right"></i></span>
+                                <span class="button_icon"><i class="icon-right" style="color: white !important"></i></span>
                                 <span class="button_label">Valider</span>
                             </a>
                         </div>
@@ -115,11 +115,11 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
 
                         <div class="column_attr clearfix align_center step-pause">
                             <a class="button button_left button_size_2 button_js trigger-next-step" href="#" onclick="setAccepted(\'0\')">
-                                <span class="button_icon"><i class="icon-left"></i></span>
+                                <span class="button_icon"><i class="icon-left" style="color: white !important"></i></span>
                                 <span class="button_label">Refuser</span>
                             </a>
                             <a class="button button_right button_size_2 button_js kill_the_icon trigger-next-step" href="#" onclick="setAccepted(\'1\')">
-                                <span class="button_icon"><i class="icon-right"></i></span>
+                                <span class="button_icon"><i class="icon-right" style="color: white !important"></i></span>
                                 <span class="button_label">Accepter</span>
                             </a>
                         </div>
