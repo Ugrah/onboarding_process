@@ -34,7 +34,6 @@ if( isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQU
 
     switch ($step) {
         case 0:
-            exit();
             $ice = $_POST['ice'];
 
             // iceFile Treat
