@@ -9,6 +9,8 @@
 
 <head>
 
+	<!--begin::Base Path (base relative path for assets of this page) -->
+    <base href="../">
 
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
@@ -71,11 +73,11 @@
                     <div class="container">
                         <div class="column one">
                             <div class="top_bar_left clearfix">
-                                <?php include('includes/logo.php');?>
-                                <?php include('includes/menu.php'); ?>
+                                <?php include('../includes/logo.php');?>
+                                <?php include('../includes/menu.php'); ?>
                             </div>
                             <div class="top_bar_right">
-                                <?php include('includes/espace_client.php');?>
+                                <?php include('../includes/espace_client.php');?>
                             </div>
                         </div>
                     </div>
@@ -297,17 +299,17 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="clearfix">
-                                                                    <div class="credit__input credit__select column one-second" style="padding-left: 0; margin-left:0">
-                                                                        <label for="city">Ville<sup><i class="icofont-star-alt-2"></i></sup></label>
-                                                                        <select name="city" id="city" style="width:100%" required></select>
-                                                                        <i class=" input__load"></i>
-                                                                        <span id="cityError" class="msg-info"></span>
-                                                                    </div>
                                                                     <div class="credit__input credit__select column one-second">
                                                                         <label for="region">Region<sup><i class="icofont-star-alt-2"></i></sup></label>
                                                                         <select name="region" id="region" style="width:100%" required></select>
                                                                         <i class=" input__load"></i>
                                                                         <span id="regionError" class="msg-info"></span>
+                                                                    </div>
+                                                                    <div class="credit__input credit__select column one-second" style="padding-left: 0; margin-left:0">
+                                                                        <label for="city">Ville<sup><i class="icofont-star-alt-2"></i></sup></label>
+                                                                        <select name="city" id="city" style="width:100%" required></select>
+                                                                        <i class=" input__load"></i>
+                                                                        <span id="cityError" class="msg-info"></span>
                                                                     </div>
                                                                 </div>
                                                             </form>
@@ -588,7 +590,7 @@
         </div>
 
         <!-- Footer-->
-        <?php include('includes/footer.php'); ?>
+        <?php include('../includes/footer.php'); ?>
     </div>
 
     
@@ -623,12 +625,15 @@
             /**
              * Get cities list 
              */
-            getCities = function(inputSelectID, inputSelectRegion) {
+            getCities = function(regionID, inputSelectID) {
+                regionID = parseInt(regionID);
+
                 $.ajax({
-					url : 'dummy.data.php',
+					url : './OnBoarding/dummy.data.php',
 					type : 'POST',
                     data: {
-                        action: 'getCities',
+                        action: 'getCitiesRegion',
+                        regionID: regionID
                     },
 					success : function(data) {
 						// Treat response
@@ -640,38 +645,36 @@
                             });
                         }
 					},
-					complete: function() {
-                        $(inputSelectID).on('change', function(e){
-                            getRegions( $(inputSelectID).val(), inputSelectRegion );
-                        });
-                        $(inputSelectID).trigger('change');
-					}
 				});
             }
 
             /**
              * Get City Regions list 
              */
-            getRegions = function(cityID, inputSelectRegion) {
-                cityID = parseInt(cityID);
+            getRegions = function(inputSelectID, inputSelectCities) {
 
                 $.ajax({
-					url : 'dummy.data.php',
+					url : './OnBoarding/dummy.data.php',
 					type : 'POST',
                     data: {
-                        action: 'getRegionsCity',
-                        cityID: cityID
+                        action: 'getRegions',
                     },
 					success : function(data) {
 						// Treat response
 						response = JSON.parse(data);
-                        if(inputSelectRegion) {
-                            $(inputSelectRegion).html('');
+                        if(inputSelectID) {
+                            $(inputSelectID).html('');
                             $.each(response, function (i, region) {
-                                $(inputSelectRegion).append(`<option value="${region.id}">${region.name}</option>`);
+                                $(inputSelectID).append(`<option value="${region.id}">${region.name}</option>`);
                             });
                         }
 					},
+                    complete: function() {
+                        $(inputSelectID).on('change', function(e){
+                            getCities( $(inputSelectID).val(), inputSelectCities );
+                        });
+                        $(inputSelectID).trigger('change');
+					}
 				});
             }
 
@@ -680,7 +683,7 @@
              */
             getActivityArea = function(inputSelectID, inputSelectBranchID, inputSelectSubBranchID) {
                 $.ajax({
-					url : 'dummy.data.php',
+					url : './OnBoarding/dummy.data.php',
 					type : 'POST',
                     data: {
                         action: 'getActivityArea',
@@ -711,7 +714,7 @@
                 activityAreaID = parseInt(activityAreaID);
 
                 $.ajax({
-					url : 'dummy.data.php',
+					url : './OnBoarding/dummy.data.php',
 					type : 'POST',
                     data: {
                         action: 'getBranch',
@@ -743,7 +746,7 @@
                 branchID = parseInt(branchID);
 
                 $.ajax({
-					url : 'dummy.data.php',
+					url : './OnBoarding/dummy.data.php',
 					type : 'POST',
                     data: {
                         action: 'getSubBranch',
@@ -768,7 +771,6 @@
                 } else {
                     $('a#previous-step').show();
                     $(`div#step-${step}`).find('div.step-pause').show();
-
                 }
             }
 
@@ -780,7 +782,7 @@
 
             previousStepAction = function() {
                 if(step >= 1) {
-                    $(`div#step-${step}`).fadeOut('slow');
+                    $(`div#step-${step}`).slideUp('slow');
                     // $("html, body").animate({ scrollTop: ($(`div#step-${step}`).height() - $('body').scrollTop()) }, 1000);
 
                     $(`div#step-${step}`).find('div.loader').remove();
@@ -789,6 +791,9 @@
                     step --;
                     $('div#step-block-section').find(`dl#step-info-${step}`).remove();
                     $('div#step-block-section').find(`form#step-form-${step}`).show('slow');
+
+                    var passedStep = `div#step-${step}`;
+                    $(passedStep).slideDown({ duration: 'slow', easing: 'swing' });
 
                     if( (typeof $(`div#step-${step}`).attr('data-hidden-step') !== typeof undefined) && ($(`div#step-${step}`).attr('data-hidden-step') !== false) ) {
                         $('div#nextAndPreviousStepButtons').fadeOut();
@@ -814,7 +819,7 @@
 				//Send Ajex request to save information 
 				var formData = new FormData(form[0]);
 				$.ajax({
-					url : 'onboarding.step.php',
+					url : './OnBoarding/onboarding.step.php',
 					type : 'POST',
 					data : formData,
 					cache: false,
@@ -832,7 +837,8 @@
 										$dl.append( $(`<dt>${file.name}</dt>`) );
 										// $dl.append( $(`<dd>${file.path}</dd>`) );
 										if(file.ext == 'pdf') {
-											$dl.append(`<object data="https://cic.maxmind.ma/${file.completePath}" type="application/pdf"><iframe src="https://docs.google.com/viewer?url=https://cic.maxmind.ma/${file.completePath}&embedded=true"></iframe></object>`);
+											// $dl.append(`<object data="https://cic.maxmind.ma/${file.completePath}" type="application/pdf"><iframe src="https://docs.google.com/viewer?url=https://cic.maxmind.ma/${file.completePath}&embedded=true"></iframe></object>`);
+											$dl.append(`<object width="400" height="240" data="${file.completePath}"></object>`);
 										} else {
 											// $dl.append( $(`<img src="${file.completePath}" alt="" width="200px" height="">`) );
 											$dl.append( $(file.imageBlock) );
@@ -860,10 +866,12 @@
                         // Show finish modal when it was last step 
                         if(response.lastStep && response.status) {
                             // $('div#subscribeRapport').show();
-                            window.location.replace("./onboarding.payment.php");
+                            window.location.replace("./Onboarding/onboarding.payment.php");
                         } else {
                             if(response.status) {
                                 $(`div#step-${step}`).find('div.step-pause').hide();
+                                var passedStep = `div#step-${step}`;
+                                $(passedStep).slideUp({ duration: 'slow', easing: 'swing' });
 
                                 step ++;
                                 $(`div#step-${step}`).fadeIn('slow'); 
@@ -894,7 +902,6 @@
 
                         if(response.hideStep){ 
                             $('div#nextAndPreviousStepButtons').fadeOut();
-                            console.log('On est sensé cacher les bouttons de step');
                         }
 					}
 				});
@@ -908,7 +915,7 @@
                 var content;
 
                 $.ajax({
-					url : 'onboarding.treat.php',
+					url : './OnBoarding/onboarding.treat.php',
 					type : 'POST',
                     data: {
                         action: 'getSummaryInfos',
@@ -935,7 +942,7 @@
                 var content;
 
                 $.ajax({
-					url : 'onboarding.treat.php',
+					url : './OnBoarding/onboarding.treat.php',
 					type : 'POST',
                     data: {
                         action: 'getTermsOfService',
@@ -961,7 +968,7 @@
                 var content;
 
                 $.ajax({
-					url : 'onboarding.treat.php',
+					url : './OnBoarding/onboarding.treat.php',
 					type : 'POST',
                     data: {
                         action: 'getPaymentSummary',
@@ -986,7 +993,7 @@
                 var content;
 
                 $.ajax({
-					url : 'onboarding.treat.php',
+					url : './OnBoarding/onboarding.treat.php',
 					type : 'POST',
                     data: {
                         action: 'getPayment',
@@ -1151,8 +1158,8 @@
                 $(`input[name="${$(this).attr('name')}Check"]`).val( $(this).is(':checked') ? 1 : 0);
             });
 
-            getCities('select#city', 'select#region');
-            getCities('select#summaryCity', 'select#summaryRegion');
+            getRegions('select#region', 'select#city');
+            // getCities('select#summaryCity', 'select#summaryRegion');
             getActivityArea('select#activityArea', 'select#branch', 'select#sub-branch');
         });
     </script>
