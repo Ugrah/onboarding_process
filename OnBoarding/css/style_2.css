@@ -480,3 +480,15 @@ table.payment td, table.payment tbody, table.payment tbody, table.payment thead 
     border: hidden !important;
 }
 
+.flex-container {
+    display: flex;
+    font-size: 1em !important;
+  }
+  
+  .flex-container > div.col {
+    margin: 10px;
+    flex: 1;
+    font-size: 1em !important;
+    text-align: left !important;
+  }
+

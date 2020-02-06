@@ -122,18 +122,10 @@
                                             </div>
 
                                             <!-- Block form step 0 -->
-                                            <div id="step-0" class="team team_list clearfix" style="">
-                                                <div class="column one-third" style="">
-                                                    <div class="image_frame no_link scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <span class="icon single_icon icon_center themecolor">
-                                                                <i class="icon-shop-line" style="font-size: 10em"></i>
-                                                            </span>
-                                                            <!-- <img class="scale-with-grid" src="https://image.freepik.com/photos-gratuite/belle-femme-asiatique-aide-smartphone-achat-ligne_7861-797.jpg" alt="img"> -->
-                                                        </div>
-                                                    </div>
+                                            <div id="step-0" class="team team_list clearfix flex-container">
+                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/bienvenue-double-exposition-poignee-main-partenaire-homme-affaires_33829-169.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
-                                                <div class="column two-third">
+                                                <div class="column two-third col" style="flex: 2;">
                                                     <div class="desc_wrapper">
                                                         <h4 class="subtitle">Identification de l'entreprise</h4>
                                                         <hr class="hr_color">
@@ -162,18 +154,10 @@
                                             </div>
 
                                             <!-- Block form step 1 -->
-                                            <div id="step-1" class="team team_list clearfix" style="display: none">
-                                                <div class="column one-third">
-                                                    <div  class="image_frame no_link scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <span class="icon single_icon icon_center themecolor">
-                                                                <i class="icon-phone" style="font-size: 10em"></i>
-                                                            </span>
-                                                            <!-- <img class="scale-with-grid" src="https://image.freepik.com/photos-gratuite/belle-femme-asiatique-aide-smartphone-achat-ligne_7861-797.jpg" alt="img"> -->
-                                                        </div>
-                                                    </div>
+                                            <div id="step-1" class="team team_list clearfix flex-container" style="display: none">
+                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/contactez-nous-personnes-du-service-assistance-clientele-connect-appelez-assistance-clientele_36325-2023.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
-                                                <div class="column two-third">
+                                                <div class="column two-third col" style="flex: 2;">
                                                     <div class="desc_wrapper">
                                                         <h4 class="subtitle">Numéro de téléphone et adresse email</h4>
                                                         <hr class="hr_color">
@@ -257,18 +241,10 @@
                                             </div>
 
                                             <!-- Block form step 2 -->
-                                            <div id="step-2" class="team team_list clearfix" style="display: none">
-                                                <div class="column one-third">
-                                                    <div class="image_frame no_link scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <span class="icon single_icon icon_center themecolor">
-                                                                <i class="icon-user" style="font-size: 10em"></i>
-                                                            </span>
-                                                            <!-- <img class="scale-with-grid" src="https://image.freepik.com/photos-gratuite/belle-femme-asiatique-aide-smartphone-achat-ligne_7861-797.jpg" alt="img"> -->
-                                                        </div>
-                                                    </div>
+                                            <div id="step-2" class="team team_list clearfix flex-container" style="display: none;">
+                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/gros-plan-femme-affaires-tapant-mains-ordinateur-portable-clavier-m_1232-2746.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
-                                                <div class="column two-third">
+                                                <div class="column two-third col" style="flex: 2;">
                                                     <div class="desc_wrapper">
                                                         <h4 class="subtitle">Information du contact principal</h4>
                                                         <hr class="hr_color">
@@ -319,18 +295,10 @@
                                             </div>
 
                                             <!-- Block form step 3 -->
-                                            <div id="step-3" class="team team_list clearfix" style="display: none">
-                                                <div class="column one-third">
-                                                    <div class="image_frame no_link scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <span class="icon single_icon icon_center themecolor">
-                                                                <i class="icon-user" style="font-size: 10em"></i>
-                                                            </span>
-                                                            <!-- <img class="scale-with-grid" src="https://image.freepik.com/photos-gratuite/belle-femme-asiatique-aide-smartphone-achat-ligne_7861-797.jpg" alt="img"> -->
-                                                        </div>
-                                                    </div>
+                                            <div id="step-3" class="team team_list clearfix flex-container" style="display: none">
+                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/conseiller-commercial-analysant-chiffres-financiers-indiquant-progres-realises-dans-travail-entreprise_1423-97.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
-                                                <div class="column two-third">
+                                                <div class="column two-third col" style="flex: 2;">
                                                     <div class="desc_wrapper">
                                                         <h4 class="subtitle">Statut de l'entreprise</h4>
                                                         <hr class="hr_color">
@@ -381,18 +349,10 @@
                                             </div>
 
                                             <!-- Block form step 4 -->
-                                            <div id="step-4" class="team team_list clearfix" style="display: none" data-summary="1">
-                                                <div class="column one-third">
-                                                    <div class="image_frame no_link scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <span class="icon single_icon icon_center themecolor">
-                                                                <i class="icon-user" style="font-size: 10em"></i>
-                                                            </span>
-                                                            <!-- <img class="scale-with-grid" src="https://image.freepik.com/photos-gratuite/belle-femme-asiatique-aide-smartphone-achat-ligne_7861-797.jpg" alt="img"> -->
-                                                        </div>
-                                                    </div>
+                                            <div id="step-4" class="team team_list clearfix flex-container" style="display: none" data-summary="1">
+                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/analyse-donnees-pour-concept-commercial-financier_31965-2752.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
-                                                <div class="column two-third">
+                                                <div class="column two-third col" style="flex: 2;">
                                                     <div class="desc_wrapper">
                                                         <h4 class="subtitle">Récapitulatif des données saisies</h4>
                                                         <hr class="hr_color">
@@ -403,17 +363,10 @@
                                             </div>
 
                                             <!-- Block form step 5 -->
-                                            <div id="step-5" class="team team_list clearfix" style="display: none" data-hidden-step="1" data-terms-service="1">
-                                                <div class="column one-third">
-                                                    <div class="image_frame no_link scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <span class="icon single_icon icon_center themecolor">
-                                                                <i class="icon-user" style="font-size: 10em"></i>
-                                                            </span>
-                                                        </div>
-                                                    </div>
+                                            <div id="step-5" class="team team_list clearfix flex-container" style="display: none" data-hidden-step="1" data-terms-service="1">
+                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/gros-plan-documents-contractuels-polices-assurance-notion-conditions-utilisation-polices-assurance-vie_68339-318.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
-                                                <div class="column two-third">
+                                                <div class="column two-third col" style="flex: 2">
                                                     <div class="desc_wrapper">
                                                         <h4 class="subtitle">Conditions d'utilisation du service</h4>
                                                         <hr class="hr_color">
@@ -424,17 +377,10 @@
                                             </div>
 
                                             <!-- Block form step 6 -->
-                                            <div id="step-6" class="team team_list clearfix" style="display: none" data-hidden-step="1">
-                                                <div class="column one-third">
-                                                    <div class="image_frame no_link scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <span class="icon single_icon icon_center themecolor">
-                                                                <i class="icon-user" style="font-size: 10em"></i>
-                                                            </span>
-                                                        </div>
-                                                    </div>
+                                            <div id="step-6" class="team team_list clearfix flex-container" style="display: none" data-hidden-step="1">
+                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/equipe-architectes-urbains-travaillant-nouveau-projet_1163-5381.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
-                                                <div class="column two-third">
+                                                <div class="column two-third col" style="flex: 2">
                                                     <div class="desc_wrapper">
                                                         <h4 class="subtitle">Choix de l'abonnement</h4>
                                                         <hr class="hr_color">
@@ -521,17 +467,10 @@
                                             </div>
 
                                             <!-- Block form step 7 -->
-                                            <div id="step-7" class="team team_list clearfix" style="display: none" data-payment-summary="1">
-                                                <div class="column one-third">
-                                                    <div class="image_frame no_link scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <span class="icon single_icon icon_center themecolor">
-                                                                <i class="icon-user" style="font-size: 10em"></i>
-                                                            </span>
-                                                        </div>
-                                                    </div>
+                                            <div id="step-7" class="team team_list clearfix flex-container" style="display: none" data-payment-summary="1">
+                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/main-homme-tenant-stylo-prenant-notes-dans-cahier_11304-1259.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
-                                                <div class="column two-third">
+                                                <div class="column two-third col" style="flex: 2">
                                                     <div class="desc_wrapper">
                                                         <h4 class="subtitle">Récapitulatif de l'abonnement</h4>
                                                         <hr class="hr_color">
@@ -542,17 +481,10 @@
                                             </div>
 
                                             <!-- Block form step 8 -->
-                                            <div id="step-8" class="team team_list clearfix" style="display: none" data-payment="1">
-                                                <div class="column one-third">
-                                                    <div class="image_frame no_link scale-with-grid">
-                                                        <div class="image_wrapper">
-                                                            <span class="icon single_icon icon_center themecolor">
-                                                                <i class="icon-user" style="font-size: 10em"></i>
-                                                            </span>
-                                                        </div>
-                                                    </div>
+                                            <div id="step-8" class="team team_list clearfix flex-container" style="display: none" data-payment="1">
+                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/paiement-par-carte-credit-achat-vente-produits-services_1150-16374.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
-                                                <div class="column two-third">
+                                                <div class="column two-third col" style="flex: 2">
                                                     <div class="desc_wrapper">
                                                         <h4 class="subtitle">Paiement</h4>
                                                         <hr class="hr_color">
