@@ -727,7 +727,7 @@
                 form.find('span.msg-info').text('');
 
                 // Display loader
-                form.closest('div.desc').append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+                form.closest('div.desc').append('<div class="loader" style="text-align: center; padding: "><img src="images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
                 
 				// Hide the current form
                 if( (typeof form.attr('data-stay-display') === typeof undefined) || (form.attr('data-stay-display') === false) ) {
@@ -829,7 +829,7 @@
             getAndDisplaySummaryInformations = function($divStepElmt){
                 if(!$divStepElmt) return false;
 
-                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
 
                 var content;
 
@@ -856,7 +856,7 @@
             getTermsOfService = function($divStepElmt) {
                 if(!$divStepElmt) return false;
 
-                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
 
                 var content;
 
@@ -882,7 +882,7 @@
             getPaymentSummary = function($divStepElmt) {
                 if(!$divStepElmt) return false;
 
-                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
 
                 var content;
 
@@ -907,7 +907,7 @@
             getPayment = function($divStepElmt) {
                 if(!$divStepElmt) return false;
 
-                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="./images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
+                $divStepElmt.append('<div class="loader" style="text-align: center; padding: "><img src="images/loader/symbol-check-info.svg" style="display: block; margin-left: auto; margin-right: auto; width: 20%;" /></div>');
 
                 var content;
 
