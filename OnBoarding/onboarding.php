@@ -123,7 +123,7 @@
 
                                             <!-- Block form step 0 -->
                                             <div id="step-0" class="team team_list clearfix flex-container">
-                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/bienvenue-double-exposition-poignee-main-partenaire-homme-affaires_33829-169.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                                                <div class="column one-third col" style="flex: 1; background: url(OnBoarding/img/bienvenue.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
                                                 <div class="column two-third col" style="flex: 2;">
                                                     <div class="desc_wrapper">
@@ -155,7 +155,7 @@
 
                                             <!-- Block form step 1 -->
                                             <div id="step-1" class="team team_list clearfix flex-container" style="display: none">
-                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/contactez-nous-personnes-du-service-assistance-clientele-connect-appelez-assistance-clientele_36325-2023.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                                                <div class="column one-third col" style="flex: 1; background: url(OnBoarding/img/contactez-nous.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
                                                 <div class="column two-third col" style="flex: 2;">
                                                     <div class="desc_wrapper">
@@ -242,7 +242,7 @@
 
                                             <!-- Block form step 2 -->
                                             <div id="step-2" class="team team_list clearfix flex-container" style="display: none;">
-                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/gros-plan-femme-affaires-tapant-mains-ordinateur-portable-clavier-m_1232-2746.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                                                <div class="column one-third col" style="flex: 1; background: url(OnBoarding/img/gros-plan-femme-affaires.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
                                                 <div class="column two-third col" style="flex: 2;">
                                                     <div class="desc_wrapper">
@@ -296,7 +296,7 @@
 
                                             <!-- Block form step 3 -->
                                             <div id="step-3" class="team team_list clearfix flex-container" style="display: none">
-                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/conseiller-commercial-analysant-chiffres-financiers-indiquant-progres-realises-dans-travail-entreprise_1423-97.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                                                <div class="column one-third col" style="flex: 1; background: url(OnBoarding/img/conseiller-commercial.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
                                                 <div class="column two-third col" style="flex: 2;">
                                                     <div class="desc_wrapper">
@@ -350,7 +350,7 @@
 
                                             <!-- Block form step 4 -->
                                             <div id="step-4" class="team team_list clearfix flex-container" style="display: none" data-summary="1">
-                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/analyse-donnees-pour-concept-commercial-financier_31965-2752.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                                                <div class="column one-third col" style="flex: 1; background: url(OnBoarding/img/analyse-donnees.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
                                                 <div class="column two-third col" style="flex: 2;">
                                                     <div class="desc_wrapper">
@@ -364,7 +364,7 @@
 
                                             <!-- Block form step 5 -->
                                             <div id="step-5" class="team team_list clearfix flex-container" style="display: none" data-hidden-step="1" data-terms-service="1">
-                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/gros-plan-documents-contractuels-polices-assurance-notion-conditions-utilisation-polices-assurance-vie_68339-318.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                                                <div class="column one-third col" style="flex: 1; background: url(OnBoarding/img/gros-plan-documents-contractuels.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
                                                 <div class="column two-third col" style="flex: 2">
                                                     <div class="desc_wrapper">
@@ -378,7 +378,7 @@
 
                                             <!-- Block form step 6 -->
                                             <div id="step-6" class="team team_list clearfix flex-container" style="display: none" data-hidden-step="1">
-                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/equipe-architectes-urbains-travaillant-nouveau-projet_1163-5381.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                                                <div class="column one-third col" style="flex: 1; background: url(OnBoarding/img/equipe-architectes-urbains.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
                                                 <div class="column two-third col" style="flex: 2">
                                                     <div class="desc_wrapper">
@@ -464,7 +464,7 @@
 
                                             <!-- Block form step 7 -->
                                             <div id="step-7" class="team team_list clearfix flex-container" style="display: none" data-payment-summary="1">
-                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/main-homme-tenant-stylo-prenant-notes-dans-cahier_11304-1259.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                                                <div class="column one-third col" style="flex: 1; background: url(OnBoarding/img/main-homme-tenant-stylo.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
                                                 <div class="column two-third col" style="flex: 2">
                                                     <div class="desc_wrapper">
@@ -478,7 +478,7 @@
 
                                             <!-- Block form step 8 -->
                                             <div id="step-8" class="team team_list clearfix flex-container" style="display: none" data-payment="1">
-                                                <div class="column one-third col" style="flex: 1; background: url(https://image.freepik.com/photos-gratuite/paiement-par-carte-credit-achat-vente-produits-services_1150-16374.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                                                <div class="column one-third col" style="flex: 1; background: url(OnBoarding/img/paiement-par-carte-credit.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
                                                 </div>
                                                 <div class="column two-third col" style="flex: 2">
                                                     <div class="desc_wrapper">
@@ -709,11 +709,7 @@
                     var passedStep = `div#step-${step}`;
                     var paddingScroll = $(passedStep).height() * (20/100);
                     body.stop().animate({scrollTop: ($(document).scrollTop() - $(passedStep).height() - paddingScroll) }, 2000, 'swing', function() { 
-                        // alert("Finished animating");
                     });
-                    // console.log( $(passedStep).height() );
-                    // console.log( $(document).scrollTop() );
-                    // console.log( $(window).scrollTop() );
 
                     $(`div#step-${step}`).find('div.loader').remove();
                     $(`div#step-${step}`).find('form').show();
@@ -721,9 +717,6 @@
                     step --;
                     $('div#step-block-section').find(`form#step-form-${step}`).show();
                     $('div#step-block-section').find(`dl#step-info-${step}`).remove();
-
-                    // var passedStep = `div#step-${step}`;
-                    // $(passedStep).slideDown({ duration: 'slow', easing: 'swing' });
 
                     if( (typeof $(`div#step-${step}`).attr('data-hidden-step') !== typeof undefined) && ($(`div#step-${step}`).attr('data-hidden-step') !== false) ) {
                         $('div#nextAndPreviousStepButtons').fadeOut();
@@ -802,14 +795,12 @@
                             if(response.status) {
                                 $(`div#step-${step}`).find('div.step-pause').hide();
                                 var passedStep = `div#step-${step}`;
-                                // $(passedStep).slideUp({ duration: 'slow', easing: 'swing' });
 
                                 step ++;
                                 $(`div#step-${step}`).fadeIn({ duration: 'slow', easing: 'swing' }); 
                                 var body = $("html, body");
                                 var paddingScroll = $(passedStep).height() * (20/100);
                                 body.stop().animate({scrollTop: ($(document).scrollTop() + $(passedStep).height() + paddingScroll) }, 2000, 'swing', function() { 
-                                    // alert("Finished animating");
                                 });
 
                                 if( (typeof $(`div#step-${step}`).attr('data-summary') !== typeof undefined) && ($(`div#step-${step}`).attr('data-summary') !== false) ) {
