@@ -1520,7 +1520,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 }
 #Top_bar .menu li ul li {
 	padding: 0;
-	width: 190px;
+	width: 210px;
 	position: relative;
 	font-weight: normal;
 }
@@ -2314,7 +2314,7 @@ body.header-stack:not(.template-slider) #Header {
 	padding: 20px 10px 0;
 }
 .masonry .post-footer {
-	margin: 0 -20px;
+	margin: 0 0px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;

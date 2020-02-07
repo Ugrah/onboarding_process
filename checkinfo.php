@@ -73,9 +73,8 @@
                                                <div class="tp-caption   tp-resizeme" id="slide-1-layer-1" data-x="60" data-y="111" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":150,"speed":900,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                                                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 55px; line-height: 65px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Poppins; text-shadow: 1px 10px 10px black; margin-top: -126px;">
                                                     <b>Checkinfo</b>
-                                                    <br>est le service officiel 
-                                                    <br>de vérification de la régularité 
-                                                    <br>des chèques.
+                                                    <br>est le le service de vérification 
+                                                    <br>de la régularité des chèques.
                                                 </div>  
                                             </div>
                                         </div>
@@ -111,13 +110,13 @@
                                                     <span class="button_icon">
                                                         <i class="icon-right-circled" style="color: #fff" ></i>
                                                     </span>
-                                                    <span class="button_label" style="">Vérification de Chèque</span></a> 
+                                                    <span class="button_label" style="">Vérification de chèque</span></a> 
 
                                                 <a class="button  button_right button_size_2 button_theme button_js" href="opposition.php">
                                                     <span class="button_icon">
                                                         <i class="icon-right-circled" style="color: #fff" ></i>
                                                     </span>
-                                                    <span class="button_label" style="">Opposition sur Chèque</span></a> 
+                                                    <span class="button_label" style="">Opposition sur chèque</span></a> 
                                                 
                                             </div>
                                         </div>
@@ -126,7 +125,7 @@
                                 </div>
                             </div>
                         </div>
-                        <?php include('includes/plus_dinfo.php'); ?>
+                        <!-- <?php include('includes/plus_dinfo.php'); ?> -->
                         
                     </div>
                 </div>

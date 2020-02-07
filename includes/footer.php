@@ -1,116 +1,109 @@
-        <div class="section dark SecondaryColor" style="padding: 50px 0 0 0;">
-            <div class="section_wrapper clearfix">
-                <div class="items_group clearfix">
-                        <!-- One Third (1/3) Column -->
-                        <div class="column one-second column_column">
-                            <div class="column_attr ">
-                                <div style="text-align: right">
-                                    <p>
-                                        <span class="big">Inscrivez-vous à notre newsletter pour recevoir les dernières nouvelles sur Checkinfo.<br> 
-                                    </span>
-                                    </p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Two Third (2/3) Column -->
-                        <div class="column two-second column_column">
-                            <div class="column_attr ">
-                                <div id="contactWrapper">
-                                    <form id="contactform">
-                                        
-                                        <!-- One Third (1/3) Column -->
-                                        <div class="column one">
-                                                    <input type="email" name="email" id="email" size="40" aria-required="true" aria-invalid="false" placeholder="Votre email" style="margin-bottom: 10px">
-                                                    <input type="button" value="Je m'inscris a la newsletter" id="submit">
-                                                
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+   <style>
+       #social-logo li{
+            display: inline;
+            font-size: 30px;
+       }
+   </style>
+   <?php include('includes/plus_dinfo.php'); ?>
+    <footer id="Footer" class="clearfix dark">
+
+        <div class="widgets_wrapper" style="padding:40px 0;">
+            <div class="container">
+                <div class="column one">
+                    <aside class="widget_text widget widget_custom_html" style="text-align: center;">
+                        <img src="images/logo/logo.png" alt="" style="max-width: 300px;">
+                        <ul id="social-logo">
+                            <li><a style="color: #fff;" href="https://www.facebook.com/checkinfomaroc/"  target="_blank"><img src="images/logo/icons8-facebook-old-48.png" alt=""></i></a></li>
+
+                            <li><a style="color: #fff;" href="https://www.youtube.com/watch?time_continue=6&v=pQQu_5L0XE8&feature=emb_title" target="_blank"><img src="images/logo/icons8-play-button-48.png" alt=""></a></li>
+
+
+                            <li><a style="color: #fff;" href="https://www.linkedin.com/in/checkinfo-maroc-29846b19b/?originalSubdomain=ma" target="_blank"><img src="images/logo/icons8-linkedin-48.png" alt=""></a></li>
+                        </ul>
+                    </aside>
+                    
                 </div>
-                
+
+										
+
+                <div class="column one-third">
+                    
+                    <aside class="widget_text widget widget_custom_html" style="text-align: center;">
+                        <span><i class="icon-email" style="font-size: 20px; padding-bottom: 12px;"></i></span> <br>
+                        <a href="" style="text-align: center; color: #fff">contact@checkinfo.ma</a>
+                    </aside>
+                </div>
+
+                <div class="column one-third">
+                    <aside class="widget_text widget widget_custom_html" style="text-align: center;">
+                        <span><i class="icon-phone" style="font-size: 20px; padding-bottom: 12px;"></i></span> <br>
+                        <a href="" style="text-align: center; color: #fff">05.20.50.60.00</a>
+                  
+                    </aside>
+                </div>
+
+                <div class="column one-third">
+                    <aside class="widget_text widget widget_custom_html" style="text-align: center;">
+                        <span><i class="icon-location-line" style="font-size: 20px; padding-bottom: 12px;"></i></span> <br>
+                        <a href="#popup-58b3436e557b2" rel="prettyphoto"  style="text-align: center; color: #fff">Le Zenith 1, Sidi Maarouf, Casablanca </a>
+                        <div id="popup-58b3436e557b2" class="popup-content">
+                        <div class="popup-inner" style="padding:20px;">
+                            <!-- <div class="image_frame image_item no_link scale-with-grid alignnone has_border">
+                                <div class="image_wrapper">
+                                    <img class="scale-with-grid" src="images/home_betheme_blog_classic_1.jpg" alt="">
+                                </div>
+                            </div> -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6650.896775278899!2d-7.641999618316586!3d33.54172461914181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62d3d1e7d9b03%3A0x3c6f0ab16a1bb90a!2s1%20Z%C3%A9nith%2C%20Casablanca!5e0!3m2!1sen!2sma!4v1581010981894!5m2!1sen!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                  
+                    </aside>
+                </div>
+
+
+                <!-- <div class="column one-third">
+                    <aside class="widget_text widget widget_custom_html" style="text-align: center;">
+                        <span><i class="icon-location-line" style="font-size: 20px; padding-bottom: 12px;"></i></span> <br>
+                        <a href="" style="text-align: center; color: #fff">Le Zenith 1, Sidi Maarouf, Casablanca </a>
+                  
+                    </aside>
+                </div> -->
+
+
+                <!-- <div class="column one">
+                    <aside class="widget_text widget widget_custom_html" style="text-align: center; font-size: 35px;">
+                        <a style="color: #fff;" href=""><i class="icon-facebook-circled"></i></a>
+                        <a style="color: #fff;" href=""><i class="icon-linkedin-circled"></i></a>
+                        <a style="color: #ff0000;" href=""><i class="icon-youtube"></i></a>
+                    </aside>
+                </div> -->
+
+
+
+                <div class="column one-third">
+                    <aside class="widget_text widget widget_custom_html" style="text-align: center;">
+                        <a href="?page=condition-generale" style="text-align: center; color: #fff" target="_blank">Conditions générales d'utilisation</a>
+                        
+                    </aside>
+                </div>
+
+                <div class="column one-third">
+                    <aside class="widget_text widget widget_custom_html" style="text-align: center;">
+                        <a href="" style="text-align: center; color: #fff">Plan du site</a>
+                        
+                    </aside>
+                </div>
+
+                <div class="column one-third">
+                    <aside class="widget_text widget widget_custom_html" style="text-align: center;">
+                        <a href="" style="text-align: center; color: #fff">Traitement des données personnelles</p>
+                        
+                    </aside>
+                </div>
+
+               
+               
             </div>
         </div>
-        <footer id="Footer" class="clearfix">
-
-            <div class="widgets_wrapper" style="padding:40px 0;">
-                <div class="container">
-                    <div class="column one-four">
-                        <aside class="widget_text widget widget_custom_html">
-                            <h4 style="text-align: center;">LIENS UTILES</h4>
-                            <br>
-                            <div class="textwidget custom-html-widget">
-                                <ul>
-                                    <li style="margin-bottom:10px">
-                                        <i style="color:#e34b50" class="icon-right-open"></i><a href="checkinfo.php">Découvrir les services Checkinfo</a>
-                                    </li>
-                                    <li style="margin-bottom:10px">
-                                        <i style="color:#e34b50" class="icon-right-open"></i><a href="#">Me connecter à mon espace client </a>
-                                    </li>
-                                    <li style="margin-bottom:10px">
-                                        <i style="color:#e34b50" class="icon-right-open"></i><a href="verification.php">Souscrire au service de vérification</a>
-                                    </li>
-                                    <li style="margin-bottom:10px">
-                                        <i style="color:#e34b50" class="icon-right-open"></i><a href="opposition.php">Procéder à une opposition sur chèque</a>
-                                    </li>
-                                    <li style="margin-bottom:10px">
-                                        <i style="color:#e34b50" class="icon-right-open"></i><a href="qui-sommes-nous.php">En apprendre davantage sur la société</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </aside>
-                    </div>
-                    <div class="column one-four">
-                        <aside class="widget_text widget widget_custom_html">
-                            <h4 style="text-align: center;">MENTIONS LEGALES</h4>
-                            <br>
-                            <div class="textwidget custom-html-widget">
-                                <ul>
-                                    <li style="margin-bottom:10px">
-                                        <i style="color:#e34b50" class="icon-right-open"></i><a href="#">Traitement des données personnelles  </a>
-                                    </li>
-                                    <li style="margin-bottom:10px">
-                                        <i style="color:#e34b50" class="icon-right-open"></i><a href="#">Conditions générales d’utilisation</a>
-                                    </li>
-                                    <li style="margin-bottom:10px">
-                                        <i style="color:#e34b50" class="icon-right-open"></i><a href="#">Plan du site </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </aside>
-                    </div>
-                    <div class="column one-four">
-                        <aside class="widget_text widget widget_custom_html">
-                            <h4 style="text-align: center;">EN SAVOIR PLUS</h4>
-                            <br>
-                            <div class="textwidget custom-html-widget">
-                                <p style="font-size: 14px;">
-                                    <a style="background: #3a5897; color: #fff; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%; margin-right: 15px;" href="#"><i class="icon-facebook"></i></a>
-                                    <a style="background: #0e76a8; color: #fff; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%; margin-right: 15px;" href="#"><i class="icon-linkedin"></i></a>
-                                    <a style="background: #25a6d1; color: #fff; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%; margin-right: 15px;" href="#"><i class="icon-youtube"></i></a>
-                                </p>
-                                <p style="padding-top: 5px;">
-                                    <a href="#" class="button button_theme button_js action_button" target="_blank" style="color: #fff; padding: 0px 20px;"><span class="button_label">newsletter</span></a></p>
-                            </div>
-                        </aside>
-                    </div>
-                    
-                    <div class="column one-four" style="text-align: center;">
-                        <aside class="widget_text widget widget_custom_html">
-                            <h4 style="text-align: center;">CONTACT</h4>
-                            <br>
-                            <div class="textwidget custom-html-widget">
-                                <p><img class="scale-with-grid" style="max-width: 116px; margin-right: 10px;" src="images/logo/logo.png"></p>
-                                <p>+0800 000 00 00</p>
-                                <p style="color:#e34b50">contact@checkinfo.ma</p>
-                                <p>Le Zénith 1, Immeuble Zénith 1, 1er étage</p>
-                                <p>Sidi Maârouf, Casablanca</p>
-                            </div>
-                        </aside>
-                    </div>
-                </div>
-            </div>
-           
-        </footer>
+        
+    </footer>

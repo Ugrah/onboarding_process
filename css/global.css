@@ -19305,7 +19305,8 @@ body:not(.with_aside) .portfolio_group.list .portfolio-item .portfolio-item-fw-w
 	color: rgba(33, 33, 33, 0.5)
 }
 .quick_fact .number {
-	font-size: 90px;
+	/* font-size: 90px; */
+	font-size: 50px;
 	line-height: 90px;
 	color:#0c9cb2;
 }

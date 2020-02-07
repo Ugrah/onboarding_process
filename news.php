@@ -33,6 +33,8 @@
     <link rel='stylesheet' href='css/employment.css'>
     <link rel='stylesheet' href='css/custom_cic.css'>
     <link rel='stylesheet' href='css/custom.css'>
+    <link rel='stylesheet' href='css/main.css'>
+
     <!--
         <link rel='stylesheet' id='style-static' href='css/be_style.css'>
     -->
@@ -88,65 +90,25 @@
                                             <!-- One full width row-->
                                             <div class="column one column_fancy_heading">
                                                 <div class="fancy_heading fancy_heading_icon">
-                                                    <h2 class="title">A La Une</h2>
+                                                    <h2 class="title">A LA UNE</h2>
                                                     
                                                 </div>
                                             </div>
                                             
                                             <!-- One full width row-->
                                             <!-- One full width row-->
-                                            <div class="column one column_blog">
+                                            <div class="column one column_blog" style="text-align: justify;">
                                                 <div class="blog_wrapper isotope_wrapper">
                                                     <!-- Masonry blog posts -->
                                                     <div class="posts_group lm_wrapper masonry isotope">
 
                                                          <!-- Ajout de deux articles recents -->
+
+                                                         <!-- 1 -->
                                                          <div class="post-175 post  format-standard has-post-thumbnail  category-motion category-photography category-uncategorized tag-eclipse tag-grid tag-mysql post-item isotope-item clearfix">
                                                             <div class="image_frame post-photo-wrapper scale-with-grid">
                                                                 <div class="image_wrapper">
-                                                                    <a href="amnistie-sur-les-amendes-pécuniaires-relatives-aux-chèques-en-bois.php">
-                                                                        <div class="mask"></div><img width="576" src="images/articles_headers/article1header.jpg" class="scale-with-grid wp-post-image" alt="" />
-                                                                    </a>
-                                                                    
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-desc-wrapper">
-                                                                <div class="post-desc">
-                                                                <div class="post-meta clearfix">
-                                                                        <div class="author-date" style="font-size: 12px;">
-                                                                            <span class="date"><span></span><i class="icon-clock"></i> 27 Janvier 2020</span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="post-title">
-                                                                        <h2 class="entry-title">
-                                                                            <a href="amnistie-sur-les-amendes-pécuniaires-relatives-aux-chèques-en-bois.php">Une amnistie sur les amendes pécuniaires relatives aux chèques en bois</a>
-                                                                        </h2>
-                                                                    </div>
-                                                                    
-                                                                    <div class="post-excerpt">
-                                                                        <p>C'est une mesure présentée par la TGR et adoptée par les députés de la Commission des Finances à la première Chambre. Elle instaure une contribution libératoire sur les amendes pécuniaires liées aux incidents de paiement sur chèque ...
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="post-footer">
-                                                                        <div class="button-love">
-                                                                            <span class="love-text">Article intéressant ?</span>
-                                                                            <a style="color: #3a5897; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-facebook"></i></a>
-                                                                            <a style="color: #0e76a8; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-linkedin"></i></a>
-                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
-                                                                        </div>
-                                                                        <div class="post-links">
-                                                                            <i class="icon-doc-text"></i>
-                                                                            <a href="amnistie-sur-les-amendes-pécuniaires-relatives-aux-chèques-en-bois.php" class="post-more">Lire la suite</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="post-175 post  format-standard has-post-thumbnail  category-motion category-photography category-uncategorized tag-eclipse tag-grid tag-mysql post-item isotope-item clearfix">
-                                                            <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                                <div class="image_wrapper">
-                                                                    <a href="recrudescence-des-chèques-sans-provision-en-2019.php">
+                                                                    <a href="?page=amnistie-sur-les-amendes-pecuniaires-relatives-aux-cheques-en-bois">
                                                                         <div class="mask"></div><img width="576" src="images/articles_headers/article2_header.jpg" class="scale-with-grid wp-post-image" alt="" />
                                                                     </a>
                                                                     
@@ -156,44 +118,49 @@
                                                                 <div class="post-desc">
                                                                 <div class="post-meta clearfix">
                                                                         <div class="author-date" style="font-size: 12px;">
-                                                                            <span class="date"><span></span><i class="icon-clock"></i> 27 Janvier 2020</span>
+                                                                            <span class="date"><span></span><i class="icon-clock"></i> 13 Novembre 2019</span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="post-title">
                                                                         <h2 class="entry-title">
-                                                                            <a href="article.php">Recrudescence des chèques sans provision en 2019</a>
+                                                                            <a href="?page=amnistie-sur-les-amendes-pecuniaires-relatives-aux-cheques-en-bois">Une amnistie sur les amendes pécuniaires relatives aux chèques en bois</a>
                                                                         </h2>
                                                                     </div>
                                                                     
                                                                     <div class="post-excerpt">
                                                                         <p>
-                                                                            C'est une mesure présentée par la TGR et adoptée par les députés de la Commission des Finances à la première Chambre. Elle instaure une contribution libératoire sur les amendes pécuniaires liées aux incidents de paiement sur chèque....
+                                                                        Un amendement au Projet de Loi de Finances 2020, présenté par la Trésorerie Générale du Royaume a
+                                                                        été adopté par la Commission des Finances à la Première Chambre dans la nuit du 12 au 13 novembre
+                                                                        2020. Cet amendement prévoit une amnistie sur les amendes pécuniaires relatives aux incidents de
+                                                                        paiement qui n’ont pas encore été régularisés, et ce, quel que soit leur rang.
+                                                                        </p>
+                                                                        <p>
+                                                                        Cet amendement adopté la nuit dernière prévoit une contribution libératoire estimée à 1,5% du montant
+                                                                        des chèques. Cette contribution est plafonnée à 10.000 Dhs pour les personnes physiques et 50.000 Dhs
+                                                                        pour les personnes morales, quels que soient le montant et le nombre des incidents de paiement.
                                                                         </p>
                                                                     </div>
                                                                     <div class="post-footer">
                                                                         <div class="button-love">
                                                                             <span class="love-text">Article intéressant ?</span>
+                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
                                                                             <a style="color: #3a5897; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-facebook"></i></a>
                                                                             <a style="color: #0e76a8; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-linkedin"></i></a>
-                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
                                                                         </div>
                                                                         <div class="post-links">
                                                                             <i class="icon-doc-text"></i>
-                                                                            <a href="recrudescence-des-chèques-sans-provision-en-2019.php" class="post-more">Lire la suite</a>
+                                                                            <a href="?page=amnistie-sur-les-amendes-pecuniaires-relatives-aux-cheques-en-bois" class="post-more">Lire la suite</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-
-
-                                                         <!-- fin -->
-
+                                                        <!-- 2 -->
                                                         <div class="post-175 post  format-standard has-post-thumbnail  category-motion category-photography category-uncategorized tag-eclipse tag-grid tag-mysql post-item isotope-item clearfix">
                                                             <div class="image_frame post-photo-wrapper scale-with-grid">
                                                                 <div class="image_wrapper">
-                                                                    <a href="article.php">
-                                                                        <div class="mask"></div><img width="576" src="images/news_1.jpeg" class="scale-with-grid wp-post-image" alt="" />
+                                                                    <a href="?page=recrudescence-des-cheques-sans-provision-en-2019">
+                                                                        <div class="mask"></div><img width="576" src="images/articles_headers/article1header.jpg " class="scale-with-grid wp-post-image" alt="" />
                                                                     </a>
                                                                     
                                                                 </div>
@@ -202,250 +169,103 @@
                                                                 <div class="post-desc">
                                                                 <div class="post-meta clearfix">
                                                                         <div class="author-date" style="font-size: 12px;">
-                                                                            <span class="date"><span></span><i class="icon-clock"></i> 02 Janvier 2020</span>
+                                                                            <span class="date"><span></span><i class="icon-clock"></i> 21 Octobre 2019</span>
                                                                         </div>
                                                                     </div>
                                                                     <div class="post-title">
                                                                         <h2 class="entry-title">
-                                                                            <a href="article.php">Comment les données alternatives peuvent aider la population non bancarisée à obtenir des prêts traditionnels</a>
+                                                                            <a href="?page=recrudescence-des-cheques-sans-provision-en-2019">Recrudescence des chèques sans provision en 2019</a>
                                                                         </h2>
                                                                     </div>
                                                                     
                                                                     <div class="post-excerpt">
-                                                                        <p>Dans les sociétés de nomades numériques, travaillant depuis la génération 2000, 
-                                                                            les migrations mondiales et les économies émergentes, 
-                                                                            les prêteurs sont souvent confrontés à une pénurie de données pertinentes pour noter 
-                                                                            et évaluer un grand bassin de population ...
+                                                                        <p>
+                                                                        Bank Al-Maghrib vient de publier son dernier rapport annuel sur les infrastructures des marchés financiers
+                                                                        et les moyens de paiement. Ce rapport présente notamment les dernières données sur la situation du
+                                                                        chèque au Maroc.
+                                                                        </p>
+                                                                        <p>
+                                                                        Et aujourd’hui le montant total des incidents de paiement sur chèque non régularisés dépasse les 95,7
+                                                                        milliards de dirhams ! 11,5 milliards sur la seule année 2018. Au total, ce sont 668.988 personnes qui sont
+                                                                        interdites de chéquier (en progression de 4,14% par rapport à l’année précédente), dont 87,5% de
+                                                                        personnes physiques. Il est à noter que 57% des rejets sont liés à l’insuffisance de provision lors de la
+                                                                        présentation au règlement.
                                                                         </p>
                                                                     </div>
                                                                     <div class="post-footer">
                                                                         <div class="button-love">
                                                                             <span class="love-text">Article intéressant ?</span>
+                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
                                                                             <a style="color: #3a5897; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-facebook"></i></a>
                                                                             <a style="color: #0e76a8; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-linkedin"></i></a>
-                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
                                                                         </div>
                                                                         <div class="post-links">
                                                                             <i class="icon-doc-text"></i>
-                                                                            <a href="article.php" class="post-more">Lire la suite</a>
+                                                                            <a href="?page=recrudescence-des-cheques-sans-provision-en-2019" class="post-more">Lire la suite</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- 3 -->
+                                                        <div class="post-175 post  format-standard has-post-thumbnail  category-motion category-photography category-uncategorized tag-eclipse tag-grid tag-mysql post-item isotope-item clearfix">
+                                                            <div class="image_frame post-photo-wrapper scale-with-grid">
+                                                                <div class="image_wrapper">
+                                                                    <a href="?page=Cheques-irreguliers-BAM-delegue-la-gestion-a-Creditinfo-Checks">
+                                                                        <div class="mask"></div><img width="576" src="images/signature.jpg" class="scale-with-grid wp-post-image" alt="" />
+                                                                    </a>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                            <div class="post-desc-wrapper">
+                                                                <div class="post-desc">
+                                                                <div class="post-meta clearfix">
+                                                                        <div class="author-date" style="font-size: 12px;">
+                                                                            <span class="date"><span></span><i class="icon-clock"></i> 04 Avril 2018</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="post-title">
+                                                                        <h2 class="entry-title">
+                                                                            <a href="?page=Cheques-irreguliers-BAM-delegue-la-gestion-a-Creditinfo-Checks">Bank Al-Maghrib et Checkinfo signent une convention de gestion déléguée du SCCI</a>
+                                                                        </h2>
+                                                                    </div>
+                                                                    
+                                                                    <div class="post-excerpt">
+                                                                        <p>
+                                                                        Afin de contrer la progression des impayés sur chèque et restaurer la crédibilité vis-à-vis de ce moyen de
+                                                                        paiement, Bank Al-Maghrib vient de signer une convention de délégation avec Checkinfo, filiale du
+                                                                        groupe international Creditinfo. Cette convention a été signée à l’issue d’un appel à manifestation
+                                                                        d’intérêt dont Checkinfo est sorti vainqueur et porte sur la gestion du Service de Centralisation des
+                                                                        Chèques Irréguliers (SCCI).
+                                                                        </p>
+
+                                                                        <p>
+                                                                        Checkinfo fournira l’accès au SCCI aux sociétés, professionnels libéraux et auto-entrepreneurs inscris au
+                                                                        service. L’objectif de Checkinfo sera de leur permettre de vérifier la régularité d’un chèque avant son
+                                                                        acceptation et de réduire ainsi le risque de non-encaissement.
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="post-footer">
+                                                                        <div class="button-love">
+                                                                            <span class="love-text">Article intéressant ?</span>
+                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
+                                                                            <a style="color: #3a5897; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-facebook"></i></a>
+                                                                            <a style="color: #0e76a8; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-linkedin"></i></a>
+                                                                        </div>
+                                                                        <div class="post-links">
+                                                                            <i class="icon-doc-text"></i>
+                                                                            <a href="?page=Cheques-irreguliers-BAM-delegue-la-gestion-a-Creditinfo-Checks" class="post-more">Lire la suite</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
 
-
-                                                        <div class="post-175 post  format-standard has-post-thumbnail  category-motion category-photography category-uncategorized tag-eclipse tag-grid tag-mysql post-item isotope-item clearfix">
-                                                            <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                                <div class="image_wrapper">
-                                                                    <a href="article.php">
-                                                                        <div class="mask"></div><img width="576" src="images/news_2.jpg" class="scale-with-grid wp-post-image" alt="" />
-                                                                    </a>
-                                                                    
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-desc-wrapper">
-                                                                <div class="post-desc">
-                                                                    <div class="post-meta clearfix">
-                                                                        <div class="author-date" style="font-size: 12px;">
-                                                                            <span class="date"><span></span><i class="icon-clock"></i> 28 Décembre 2019</span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="post-title">
-                                                                        <h2 class="entry-title">
-                                                                            <a href="article.php">Creditinfo et PT PEFINDO Biro Kredit signent un accord de partenariat stratégique à long terme en Indonésie</a>
-                                                                        </h2>
-                                                                    </div>
-                                                                    <div class="post-excerpt">
-                                                                        <p>Creditinfo Group, le principal fournisseur mondial d'informations sur le crédit et de services fintech, 
-                                                                            a annoncé aujourd'hui la signature d'un accord de partenariat stratégique à long terme avec PT PEFINDO Biro Kredit (PBK) 
-                                                                            pour soutenir davantage les institutions financières et non financières en Indonésie ... 
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="post-footer">
-                                                                    <div class="button-love">
-                                                                            <span class="love-text">Article intéressant ?</span>
-                                                                            <a style="color: #3a5897; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-facebook"></i></a>
-                                                                            <a style="color: #0e76a8; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-linkedin"></i></a>
-                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
-                                                                        </div>
-                                                                        <div class="post-links">
-                                                                            <i class="icon-doc-text"></i>
-                                                                            <a href="article.php" class="post-more">Lire la suite</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="post-175 post  format-standard has-post-thumbnail  category-motion category-photography category-uncategorized tag-eclipse tag-grid tag-mysql post-item isotope-item clearfix">
-                                                            <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                                <div class="image_wrapper">
-                                                                    <a href="article.php">
-                                                                        <div class="mask"></div><img width="576" src="images/news_3.jpg" class="scale-with-grid wp-post-image" alt="" />
-                                                                    </a>
-                                                                    
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-desc-wrapper">
-                                                                <div class="post-desc">
-                                                                    <div class="post-meta clearfix">
-                                                                        <div class="author-date" style="font-size: 12px;">
-                                                                            <span class="date"><span></span><i class="icon-clock"></i> 07 Décembre 2019</span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="post-title">
-                                                                        <h2 class="entry-title">
-                                                                            <a href="article.php">L'énigme de l'inclusion financière dans les économies développées</a>
-                                                                        </h2>
-                                                                    </div>
-                                                                    <div class="post-excerpt">
-                                                                        <p>
-                                                                        Le mois dernier, Consumer Champions qui a révélé les résultats d'une recherche sur l'état du secteur bancaire britannique - avec une conclusion quelque peu sombre. La première ligne de l'étude? ...
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="post-footer">
-                                                                    <div class="button-love">
-                                                                            <span class="love-text">Article intéressant ?</span>
-                                                                            <a style="color: #3a5897; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-facebook"></i></a>
-                                                                            <a style="color: #0e76a8; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-linkedin"></i></a>
-                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
-                                                                        </div>
-                                                                        <div class="post-links">
-                                                                            <i class="icon-doc-text"></i>
-                                                                            <a href="article.php" class="post-more">Lire la suite</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="post-175 post  format-standard has-post-thumbnail  category-motion category-photography category-uncategorized tag-eclipse tag-grid tag-mysql post-item isotope-item clearfix">
-                                                            <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                                <div class="image_wrapper">
-                                                                    <a href="article.php">
-                                                                        <div class="mask"></div><img width="576" src="images/news_4.jpg" class="scale-with-grid wp-post-image" alt="" />
-                                                                    </a>
-                                                                    
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-desc-wrapper">
-                                                                <div class="post-desc">
-                                                                    <div class="post-meta clearfix">
-                                                                        <div class="author-date" style="font-size: 12px;">
-                                                                            <span class="date"><span></span><i class="icon-clock"></i> 17 Novembre 2019</span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="post-title">
-                                                                        <h2 class="entry-title">
-                                                                            <a href="article.php">Profils psychométriques Coremetrix: Connaissez-vous vraiment votre client?</a>
-                                                                        </h2>
-                                                                    </div>
-                                                                    <div class="post-excerpt">
-                                                                        <p>
-                                                                            Je vivais dans une petite ville où tout le monde se connaissait. Je ne vis plus là-bas - même pas dans le même pays ou continent. J'ai grandi et j'ai évolué, mais au fond de moi, j'ai toujours un faible pour ...
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="post-footer">
-                                                                    <div class="button-love">
-                                                                            <span class="love-text">Article intéressant ?</span>
-                                                                            <a style="color: #3a5897; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-facebook"></i></a>
-                                                                            <a style="color: #0e76a8; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-linkedin"></i></a>
-                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
-                                                                        </div>
-                                                                        <div class="post-links">
-                                                                            <i class="icon-doc-text"></i>
-                                                                            <a href="article.php" class="post-more">Lire la suite</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="post-175 post  format-standard has-post-thumbnail  category-motion category-photography category-uncategorized tag-eclipse tag-grid tag-mysql post-item isotope-item clearfix">
-                                                            <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                                <div class="image_wrapper">
-                                                                    <a href="article.php">
-                                                                        <div class="mask"></div><img width="576" src="images/news_5.jpg" class="scale-with-grid wp-post-image" alt="" />
-                                                                    </a>
-                                                                    
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-desc-wrapper">
-                                                                <div class="post-desc">
-                                                                    <div class="post-meta clearfix">
-                                                                        <div class="author-date" style="font-size: 12px;">
-                                                                            <span class="date"><span></span><i class="icon-clock"></i> 20 Octobre 2019</span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="post-title">
-                                                                        <h2 class="entry-title">
-                                                                            <a href="article.php">La clé du succès: des leçons à tirer de l'Islande dynamique en matière de crédit pour les petits pays à population?</a>
-                                                                        </h2>
-                                                                    </div>
-                                                                    <div class="post-excerpt">
-                                                                        <p>
-                                                                            En 2010, j'ai décidé de retourner à l'université et d'apprendre l'anthropologie. C'est la discipline qui traite le comportement humain de manière large et holistique. Pourquoi les humains se comportent-ils comme ils le font? Après avoir obtenu son diplôme en 2014 ...
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="post-footer">
-                                                                    <div class="button-love">
-                                                                            <span class="love-text">Article intéressant ?</span>
-                                                                            <a style="color: #3a5897; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-facebook"></i></a>
-                                                                            <a style="color: #0e76a8; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-linkedin"></i></a>
-                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
-                                                                        </div>
-                                                                        <div class="post-links">
-                                                                            <i class="icon-doc-text"></i>
-                                                                            <a href="article.php" class="post-more">Lire la suite</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="post-175 post  format-standard has-post-thumbnail  category-motion category-photography category-uncategorized tag-eclipse tag-grid tag-mysql post-item isotope-item clearfix">
-                                                            <div class="image_frame post-photo-wrapper scale-with-grid">
-                                                                <div class="image_wrapper">
-                                                                    <a href="article.php">
-                                                                        <div class="mask"></div><img width="576" src="images/news_6.jpg" class="scale-with-grid wp-post-image" alt="" />
-                                                                    </a>
-                                                                    
-                                                                </div>
-                                                            </div>
-                                                            <div class="post-desc-wrapper">
-                                                                <div class="post-desc">
-                                                                    <div class="post-meta clearfix">
-                                                                        <div class="author-date" style="font-size: 12px;">
-                                                                            <span class="date"><span></span><i class="icon-clock"></i> 01 Octobre 2019</span>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="post-title">
-                                                                        <h2 class="entry-title">
-                                                                            <a href="article.php">Info-crédit et l'intelligence artificielle (IA)</a>
-                                                                        </h2>
-                                                                    </div>
-                                                                    <div class="post-excerpt">
-                                                                        <p>
-                                                                            En 2010, j'ai décidé de retourner à l'université et d'apprendre l'anthropologie. C'est la discipline qui traite le comportement humain de manière large et holistique. Pourquoi les humains se comportent-ils comme ils le font? Après avoir obtenu son diplôme en 2014 ...
-                                                                        </p>
-                                                                    </div>
-                                                                    <div class="post-footer">
-                                                                    <div class="button-love">
-                                                                            <span class="love-text">Article intéressant ?</span>
-                                                                            <a style="color: #3a5897; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-facebook"></i></a>
-                                                                            <a style="color: #0e76a8; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-linkedin"></i></a>
-                                                                            <a style="color: #25a6d1; display: inline-block; width: 35px; height: 35px; line-height: 35px; text-align: center; border-radius: 100%;" href="#"><i class="icon-mail"></i></a>
-                                                                        </div>
-                                                                        <div class="post-links">
-                                                                            <i class="icon-doc-text"></i>
-                                                                            <a href="article.php" class="post-more">Lire la suite</a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                         <!-- fin -->
                                                         
                                                     </div>
                                                     <!-- One full width row-->
-                                                    <div class="column one pager_wrapper">
-                                                        <!-- Navigation Area -->
+                                                    <!-- <div class="column one pager_wrapper" style="display: none;">
                                                         <div class="pager">
                                                             <div class="pages">
                                                                 <a href="#" class="active">1</a>
@@ -456,7 +276,7 @@
                                                                 <a href="#" >6</a>
                                                             </div><a class="next_page" href="#">Page suivante<i class="icon-right-open"></i></a>
                                                         </div>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                             </div>
                                            
@@ -488,6 +308,8 @@
     <script src="js/translate3d.js"></script>
     <script src="js/scripts.js"></script>
 
+    <script src="js/news.js"></script>
+    <script src="js/scripts/index.js"></script>
 
 </body>
 

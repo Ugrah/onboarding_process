@@ -9,7 +9,7 @@
                         <h2>Vous avez des questions ou <br> avez besoin d’aide pour vous inscrire ?</h2>
                         <p>Contactez-nous via <a>le Chatbot</a>
                             <br>
-                            Ou appelez le Centre de Relation Clientèle Checkinfo au <a>05.22.44.44.44</a> (du lundi au vendredi de 8h à 18h)
+                            Ou appelez le centre de relation clientèle Checkinfo au <a>05.20.50.60.00</a> (du lundi au vendredi de 8h à 18h)
                                 
                         </p>
                         

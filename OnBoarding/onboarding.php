@@ -117,7 +117,7 @@
                                             <!-- One full width row-->
                                             <div class="column_attr clearfix align_center">
                                                 <div class="logo">
-                                                    <img src="OnBoarding/img/logo.png" alt="" style="max-height: 5em">
+                                                    <img src="OnBoarding/img/check-info.png" alt="" style="max-height: 5em; margin-bottom: 1.2em">
                                                 </div>
                                             </div>
 
@@ -698,20 +698,31 @@
                 }
             }
 
+            $.fn.scrollBottom = function() { 
+                return $(document).height() - this.scrollTop() - this.height(); 
+            };
+
             previousStepAction = function() {
                 if(step >= 1) {
-                    $(`div#step-${step}`).slideUp('slow');
-                    // $("html, body").animate({ scrollTop: ($(`div#step-${step}`).height() - $('body').scrollTop()) }, 1000);
+                    $(`div#step-${step}`).slideUp({ duration: 2000, easing: 'swing' });
+                    var body = $("html, body");
+                    var passedStep = `div#step-${step}`;
+                    body.stop().animate({scrollTop: ($(document).scrollTop() - $(passedStep).height()) }, 2000, 'swing', function() { 
+                        // alert("Finished animating");
+                    });
+                    // console.log( $(passedStep).height() );
+                    // console.log( $(document).scrollTop() );
+                    // console.log( $(window).scrollTop() );
 
                     $(`div#step-${step}`).find('div.loader').remove();
                     $(`div#step-${step}`).find('form').show();
 
                     step --;
+                    $('div#step-block-section').find(`form#step-form-${step}`).show();
                     $('div#step-block-section').find(`dl#step-info-${step}`).remove();
-                    $('div#step-block-section').find(`form#step-form-${step}`).show('slow');
 
-                    var passedStep = `div#step-${step}`;
-                    $(passedStep).slideDown({ duration: 'slow', easing: 'swing' });
+                    // var passedStep = `div#step-${step}`;
+                    // $(passedStep).slideDown({ duration: 'slow', easing: 'swing' });
 
                     if( (typeof $(`div#step-${step}`).attr('data-hidden-step') !== typeof undefined) && ($(`div#step-${step}`).attr('data-hidden-step') !== false) ) {
                         $('div#nextAndPreviousStepButtons').fadeOut();
@@ -790,11 +801,14 @@
                             if(response.status) {
                                 $(`div#step-${step}`).find('div.step-pause').hide();
                                 var passedStep = `div#step-${step}`;
-                                $(passedStep).slideUp({ duration: 'slow', easing: 'swing' });
+                                // $(passedStep).slideUp({ duration: 'slow', easing: 'swing' });
 
                                 step ++;
-                                $(`div#step-${step}`).fadeIn('slow'); 
-                                // $("html, body").animate({ scrollTop: ($(`div#step-${step}`).height() + $('body').scrollTop()) }, 1000);
+                                $(`div#step-${step}`).fadeIn({ duration: 'slow', easing: 'swing' }); 
+                                var body = $("html, body");
+                                body.stop().animate({scrollTop: ($(document).scrollTop() + $(passedStep).height()) }, 2000, 'swing', function() { 
+                                    // alert("Finished animating");
+                                });
 
                                 if( (typeof $(`div#step-${step}`).attr('data-summary') !== typeof undefined) && ($(`div#step-${step}`).attr('data-summary') !== false) ) {
                                     getAndDisplaySummaryInformations( $(`div#step-${step}`) );

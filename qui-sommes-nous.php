@@ -340,7 +340,7 @@
 
 
 
-    </style>
+</style>
 
 </head>
 
@@ -464,7 +464,7 @@
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr clearfix">
                                                 <div class="column one align_center">
-                                                    <h2 style= 'align_center'>Service officiel de vérification de la régularité des chèques</h2>
+                                                    <h2 style= 'align_center'>Service de vérification de la régularité des chèques</h2>
                                                 </div>
                                                 <div class="column one">
                                                     
@@ -488,7 +488,7 @@
                             </div>
                         </div>
 
-                        <div class="section mcb-section" style="padding-top:0px; padding-bottom:0px;">
+                        <!-- <div class="section mcb-section" style="padding-top:0px; padding-bottom:0px;">
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap one valign-top clearfix" style="margin-top:20px">
                                     <div class="mcb-wrap-inner">
@@ -502,9 +502,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="section mcb-section" style="padding-top:50px; padding-bottom:0px;background-color:#eff2f7;">
+                        <div class="section mcb-section" style="padding-top:0px; padding-bottom:0px;background-color:#eff2f7;">
                             <div class="section_wrapper mcb-section-inner">
                                
                                 <div class="wrap mcb-wrap one valign-top clearfix" style="padding:0 0 0 0; text-align: center;">
@@ -519,10 +519,10 @@
                                                         <span class="button_icon"><i class="icon-right-circled" style="color: #fff"></i></span>
                                                         <span class="button_label">S’INSCRIRE</span>
                                                     </a>
-                                                    <a class="button  button_right button_size_2 button_js kill_the_icon" href="forfaits.php">
+                                                    <!-- <a class="button  button_right button_size_2 button_js kill_the_icon" href="forfaits.php">
                                                         <span class="button_icon"><i class="icon-right-circled" style="color: #fff"></i></span>
                                                         <span class="button_label">PLUS D’INFORMATIONS SUR NOS SERVICES</span>
-                                                    </a>
+                                                    </a> -->
                                                     </p>
                                                     
                                                 </div>
@@ -535,28 +535,20 @@
                             </div>
                         </div>
 
-                        <div class="section flv_sections_33 SecondaryColor dark" style="padding-top: 50px;">
+                        <!-- <div class="section flv_sections_33 SecondaryColor dark" style="padding-top: 50px; bax">
                             <div class="section_wrapper clearfix">
                                 <div class="items_group clearfix">
-                                    <!-- One Third (1/3) Column -->
                                     <div class="column one-second column_column">
                                         <div class="column_attr ">
                                             <h3 class="flv_style_41">Mission :</h3>
-                                            <!-- <p>
-                                                <span class="big">Vitae adipiscing turpis. Aenean ligula nibh, mo lest ie id viverra a, dapibus at dolor. In iaculis viverra.</span>
-                                            </p> -->
                                            <p>
                                             Checkinfo se donne pour mission de mettre à disposition des entreprises et professionnels marocains des informations pertinentes sur le chèque visant à réduire son risque d’impayés. 
                                            </p> 
                                         </div>
                                     </div>
-                                    <!-- One Third (1/3) Column -->
                                     <div class="column one-second column_column">
                                         <div class="column_attr ">
                                             <h3 class="flv_style_41">Vision :</h3>
-                                            <!-- <p>
-                                                <span class="big">Vitae adipiscing turpis. Aenean ligula nibh, mo lest ie id viverra a, dapibus at dolor. In iaculis viverra.</span>
-                                            </p> -->
                                             <p>
                                                 Nous croyons que le chèque offre d’innombrables opportunités. En tant que délégataire de Bank Al-Maghrib, nous pouvons contribuer à renforcer sa crédibilité et à en diminuer le risque d’utilisation. 
                                             </p>
@@ -568,13 +560,11 @@
                                     
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="section center flv_sections_38" style="padding-top: 70px;padding-bottom: 30px;">
+                        <!-- <div class="section center flv_sections_38" style="padding-top: 70px;padding-bottom: 30px;">
                             <div class="section_wrapper clearfix">
                                 <div class="items_group clearfix">
-                                    <!-- Page Title-->
-                                    <!-- One full width row-->
                                     <div class="column one column_fancy_heading">
                                         <div class="fancy_heading fancy_heading_icon">
                                             <h2 class="title">Nos Valeurs</h2>
@@ -636,11 +626,19 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+                        
                         <!-- background-image:url(images/home_employment_sectionbg2.png); 
                         background-repeat:no-repeat; background-position:center top; -->
                         <div class="section mcb-section" style="padding-top:0px; padding-bottom:0px; 
                         background-color:#eff2f7;  ">
+                            <div id="Subheader">
+                                <div class="container">
+                                    <div class="column one">
+                                        <h2 class="title" style="color: #C40F11"> HISTIRIQUE</h2>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap one valign-top clearfix">
                                     <div class="mcb-wrap-inner">
@@ -713,6 +711,13 @@
                         </div>
 
                         <div class="section mcb-section" style="padding-top:0px; padding-bottom:0px;">
+                        <div id="Subheader">
+                                <div class="container">
+                                    <div class="column one">
+                                        <h2 class="title" style="color: #C40F11">CHECK INFO EST PRENSENT DANS 48 PAYS AU MONDE</h2>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap one valign-top clearfix" style="margin-top:20px">
                                     <div class="mcb-wrap-inner">

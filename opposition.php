@@ -33,6 +33,9 @@
     <link rel='stylesheet' href='css/employment.css'>
     <link rel='stylesheet' href='css/custom_cic.css'>
 
+    <link rel='stylesheet' href='css/main.css'>
+
+
     <!-- Revolution Slider -->
     <link rel="stylesheet" href="plugins/rs-plugin/css/settings.css">
 
@@ -70,9 +73,9 @@
                                             <div class="column_attr clearfix">
                                                 <br><br>
                                                <div class="tp-caption   tp-resizeme" id="slide-1-layer-1" data-x="60" data-y="111" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":150,"speed":900,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                                    data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 55px; line-height: 65px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Poppins; text-shadow: 1px 10px 10px black; margin-top: -40;">
-                                                     <b>Service</b><br>
-                                                    Opposition sur Chèques
+                                                    data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 55px; line-height: 65px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Poppins; text-shadow: 1px 10px 10px black; margin-top: -40; margin-left: -33px;">
+                                                     <!-- <b>Service d' Opposition</b><br> -->
+                                                     Opposition sur chèque
                                                     <br>
                                                     <br>
                                                 </div> 
@@ -82,50 +85,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section mcb-section" style="padding-top:50px; padding-bottom:0px;">
-                            <div class="section_wrapper mcb-section-inner">
-                                <div class="wrap mcb-wrap one-second valign-top clearfix" style="margin-top:0px">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image ">
-                                            <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper">
-                                                	<img class="scale-with-grid" src="images/logo/service.jpg">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0px 0 0 5%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_column">
-                                            <div class="column_attr clearfix">
-                                                <!--
-                                                <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
-                                                    <div class="image_wrapper">
-                                                    	<img class="scale-with-grid" src="images/retina-logo-cic.png">
-                                                    </div>
-                                                </div>
-                                                -->
-                                                <hr class="no_line" style="margin:0 auto 15px">
-                                                <p>
-                                                Vous avez perdu un chèque, voire l’intégralité de votre chéquier ? Ne perdez pas un instant ! Faites immédiatement une opposition sur chèque sur notre plateforme. 
-
-                                                </p>
-                                                <p>Les frais de service relatifs à l’opposition sur chèque s’élèvent à 1 Dhs TTC. 
-                                                </p>
-                                                <hr class="no_line" style="margin:0 auto 35px">
-                                                <a class="button  button_right button_size_2 button_theme button_js" href="#">
-                                                    <span class="button_icon">
-                                                        <i class="icon-right-circled" style="color: #fff" ></i>
-                                                    </span>
-                                                    <span class="button_label">Procéder à une opposition sur chèque </span></a> 
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+       
 
 
                         <div class="section mcb-section" style="padding-top:80px; padding-bottom:30px; background-color:#eff2f7; background-image:url(); background-repeat:no-repeat; background-position:center top; ">
@@ -152,12 +112,13 @@
                                                         </div>
                                                     </div>
                                                     <p>
-                                                        <big>Vous</big>
+                                                        <!-- <big>Vous</big> -->
                                                     </p>
                                                 </div>
                                                 <hr class="no_line" style="margin:0 auto 20px">
+                                                <br><br>
                                                 <p>
-                                                Je remplis le formulaire sur cette page
+                                                Remplir le formulaire
                                                 </p>
                                             </div>
                                         </div>
@@ -170,12 +131,13 @@
                                                         </div>
                                                     </div>
                                                     <p>
-                                                        <big>Paiement</big>
+                                                        <!-- <big>Paiement</big> -->
                                                     </p>
                                                 </div>
                                                 <hr class="no_line" style="margin:0 auto 20px">
+                                                <br><br>
                                                 <p>
-                                                 Je procède au paiement sécurisé du service
+                                                 Effectuer le paiement
                                                 </p>
                                             </div>
                                         </div>
@@ -188,12 +150,13 @@
                                                         </div>
                                                     </div>
                                                     <p>
-                                                        <big>La Réponse</big>
+                                                        <!-- <big>La Réponse</big> -->
                                                     </p>
                                                 </div>
                                                 <hr class="no_line" style="margin:0 auto 20px">
+                                                <br><br>
                                                 <p>
-                                                    Je reçois une confirmation de l’opposition par e-mail
+                                                    Confirmer
                                                 </p>
                                             </div>
                                         </div>
@@ -205,7 +168,7 @@
 
                         <div class="section mcb-section" style="padding-top:80px; padding-bottom:30px; background-color:#fff; background-image:url(); background-repeat:no-repeat; background-position:center top; ">
                             <div class="section_wrapper mcb-section-inner">
-                                <h4>Procéder à une Opposition sur Chèque</h4><br>
+                                <h4>Procéder à une opposition sur chèque</h4><br>
                                 <div class="wrap mcb-wrap one valign-top clearfix">
                                     <div class="mcb-wrap-inner">
                                         
@@ -223,7 +186,7 @@
 
                                                     <div class="column one-second">
                                                         <span class="wpcf7-form-control-wrap your-name">
-                                                        <input type="text" name="prenom" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Prenom"></span>
+                                                        <input type="text" name="prenom" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Prénom"></span>
                                                     </div>
 
                                                     <div class="column one-second">
@@ -244,12 +207,24 @@
 
                                                     <div class="column one-second">
                                                         <span class="wpcf7-form-control-wrap your-name">
-                                                        <input type="text" name="chequeNumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="N° de Chèque"></span>
+                                                        <input type="text" name="rib" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="RIB"></span>
+                                                    </div>
+
+
+                                                    <div class="column one-second">
+                                                        <span class="wpcf7-form-control-wrap your-name">
+                                                        <input type="text" name="chequeNumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="N° de chèque"></span>
+                                                    </div>
+                                                  
+
+                                                    <div class="column one-segond" style="margin-top: 12px;">
+                                                        <span class="">
+                                                        <input type="checkbox" name="chequeIntegrality" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required">Intégralité du chéquier</span>
                                                     </div>
 
                                                     <div class="column one">
                                                         <span class="wpcf7-form-control-wrap your-message">
-                                                            </span></div><div class="column one"><input type="submit" value="Enregistrer" class="wpcf7-form-control wpcf7-submit button_full_width"><span class="ajax-loader"></span></div><div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+                                                            </span></div><div class="column one"><input style="font-size: 14px;" type="submit" value="Enregistrer" class="wpcf7-form-control wpcf7-submit button_full_width"><span class="ajax-loader"></span></div><div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
                                             </div>
                                         </div>
 
@@ -261,13 +236,38 @@
                                             <p>
                                                 Il s’agit d’une opposition momentanée, valable 5 jours ouvrables et qui ne vous désengage pas de déclarer la perte à votre banque.
                                             </p>
+
+                                            <p>
+                                            Les frais de service relatifs à l’opposition sur chèque s’élèvent à 100 dhs TTC. 
+                                            </p>
                                             
                                         </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="section mcb-section" style="padding-top:0px; padding-bottom:0px; background-color: #0C9CB2">
+                         
+                         <div class="section_wrapper mcb-section-inner">
+                             
+                             <div class="wrap mcb-wrap one valign-top clearfix" style="padding:50px 0 0 5%">
+                                 <div class="mcb-wrap-inner">
+                                     <div class="column mcb-column one column_column">
+                                         <div class="column_attr clearfix align_center">
 
-                        <?php include('includes/plus_dinfo.php'); ?>
+                                             <a class="button  button_right button_size_2 button_theme button_js kill_the_icon" href="?page=verification-de-cheque">
+                                                 <span class="button_icon">
+                                                     <i class="icon-right-circled" style="color: #fff"></i>
+                                                 </span>
+                                                 <span class="button_label" style="">En savoir plus sur la vérification de chèque</span></a> 
+                                             
+                                         </div>
+                                     </div>
+                                                                   
+                                 </div>
+                             </div>
+                         </div>
+                        </div>
+                        <!-- <?php include('includes/plus_dinfo.php'); ?> -->
                         
 
                     </div>
@@ -290,6 +290,8 @@
     <script src="js/animations/animations.js"></script>
     <script src="js/translate3d.js"></script>
     <script src="js/scripts.js"></script>
+
+    <script src="js/scripts/index.js"></script>
 
 
 </body>

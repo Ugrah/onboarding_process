@@ -32,6 +32,7 @@
     <link rel='stylesheet' href='css/structure_cic.css'>
     <link rel='stylesheet' href='css/employment.css'>
     <link rel='stylesheet' href='css/custom_cic.css'>
+    <link rel='stylesheet' href='css/main.css'>
 
     <!-- Revolution Slider -->
     <link rel="stylesheet" href="plugins/rs-plugin/css/settings.css">
@@ -70,7 +71,7 @@
             <div class="content_wrapper clearfix">
                 <div class="sections_group">
                     <div class="entry-content">
-                        <div class="section mcb-section" style="padding-top:120px; padding-bottom:180px;" data-parallax="3d"><img class="mfn-parallax" src="images/header_checkinfo.jpg" style="opacity:0">
+                        <div class="section mcb-section" style="padding-top:120px; padding-bottom:180px;" data-parallax="3d"><img class="mfn-parallax" src="images/sliders/slider4.jpg" style="opacity:0">
                             <div class="section_wrapper mcb-section-inner">
                                 <div class="wrap mcb-wrap one valign-top clearfix">
                                     <div class="mcb-wrap-inner">
@@ -78,9 +79,8 @@
                                             <div class="column_attr clearfix">
                                                 <br><br>
                                                <div class="tp-caption   tp-resizeme" id="slide-1-layer-1" data-x="60" data-y="111" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":150,"speed":900,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                                    data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 55px; line-height: 65px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Poppins; text-shadow: 1px 10px 10px black; margin-top: -30px;">
-                                                    <b>Service</b><br>
-                                                    Vérification des Chèques
+                                                    data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 55px; line-height: 65px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Poppins; text-shadow: 1px 10px 10px black; margin-left: -33px;">
+                                                    Vérification de chèque
                                                     <br>
                                                 </div> 
                                             </div>
@@ -115,13 +115,18 @@
                                                         </div>
                                                     </div>
                                                     <p>
-                                                        <big>Vous</big>
+                                                        <big></big>
                                                     </p>
                                                 </div>
                                                 <hr class="no_line" style="margin:0 auto 20px">
-                                                <p>
-                                                Je remplis le formulaire sur cette page
+
+                                                <p> 
+                                                Recevoir un chèque
                                                 </p>
+
+                                                <br>
+                                                <br>
+                                                
                                             </div>
                                         </div>
                                         <div class="column mcb-column one-fourth column_column">
@@ -133,12 +138,12 @@
                                                         </div>
                                                     </div>
                                                     <p>
-                                                        <big>Paiement</big>
+                                                        <big></big>
                                                     </p>
                                                 </div>
                                                 <hr class="no_line" style="margin:0 auto 20px">
                                                 <p>
-                                                 Je procède au paiement sécurisé du service
+                                                 Se connecter à l'espace Client et entrer les données du chèque
                                                 </p>
                                             </div>
                                         </div>
@@ -151,12 +156,12 @@
                                                         </div>
                                                     </div>
                                                     <p>
-                                                        <big>La Réponse</big>
+                                                        <big></big>
                                                     </p>
                                                 </div>
                                                 <hr class="no_line" style="margin:0 auto 20px">
                                                 <p>
-                                                    Je reçois une confirmation de l’opposition par e-mail
+                                                    Recevoir instantanément l'information sur la régularité du chèque
                                                 </p>
                                             </div>
                                         </div>
@@ -170,7 +175,7 @@
                             <div id="Subheader">
                                 <div class="container">
                                     <div class="column one">
-                                        <h2 class="title">NOS FORFAITS</h2>
+                                        <h2 class="title">FORFAITS</h2>
                                     </div>
                                 </div>
                             </div>
@@ -203,11 +208,16 @@
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="desc_wrapper">
-                                                                                    <h4>GRAND <br> - <br>COMPTE</h4>
+                                                                                    <br>
+                                                                                    <h4>GRAND  COMPTE</h4>
                                                                                 </div>
+                                                                                &nbsp;
                                                                             </a>
+                                                                            
                                                                         </div>
+                                                                      
                                                                     </li>
+                                                                    
                                                                     <!-- TPEME -->
                                                                     <li>
                                                                         <!-- <a data-rel=".category-2" href="#">TPME <br> - <br>PROFESSIONNEL INDEPENDANT</a> -->
@@ -224,8 +234,9 @@
                                                                             </a>
                                                                         </div>
                                                                     </li>
-                                                                    <!-- Utilisateur -->
-                                                                    <li>
+
+                                                                     <!-- Utilisateur -->
+                                                                     <li>
                                                                         <!-- <a data-rel=".category-1" href="#">UTILISATEUR <br> - <br> OCCASIONNEL</a> -->
                                                                         <div class="icon_box icon_position_top has_border">
                                                                             <a href="#" data-rel=".category-1" style="padding: 40px 0;">
@@ -235,8 +246,10 @@
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="desc_wrapper">
-                                                                                    <h4>UTILISATEUR <br> - <br> OCCASIONNEL</h4>
+                                                                                    <br>
+                                                                                    <h4>UTILISATEUR OCCASIONNEL</h4>
                                                                                 </div>
+                                                                                &nbsp;
                                                                             </a>
                                                                         </div>
                                                                     </li>
@@ -458,6 +471,8 @@
                                                                     <li class="portfolio-item isotope-item category-1 ">
                                                                         <!-- One Fourth (1/4) Column -->
                                                                         <div class="column one-third column_pricing_item">
+                                                                        </div>
+                                                                        <div class="column one-third column_pricing_item">
                                                                             <div class="pricing-box pricing-box-box">
                                                                                 <div class="plan-header">
                                                                                     <h2>Pack 1.1</h2>
@@ -487,6 +502,8 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
+                                                                        <div class="column one-third column_pricing_item">
+                                                                        </div>
                                                                         <!-- One full width row-->
                                                                         <div class="column one column_divider">
                                                                             <hr class="no_line">
@@ -504,9 +521,6 @@
                                 </div>
                             </div>
                         </div>
-
-                        
-                      
                         <div class="section center flv_sections_38" style="padding-top: 30px">
                             <div class="section_wrapper clearfix">
                                 <div class="items_group clearfix">
@@ -529,9 +543,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="desc_wrapper">
-                                                    <h4>Forfaits</h4>
+                                                    <!-- <h4>Forfaits</h4> -->
                                                     <div class="desc">
-                                                    Le commerçant choisit son forfait
+                                                    Choisir le forfait en fonction de ses besoins
                                                     </div>
                                                 </div>
                                             </a>
@@ -546,9 +560,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="desc_wrapper">
-                                                    <h4>Souscription</h4>
+                                                    <!-- <h4>Souscription</h4> -->
                                                     <div class="desc">
-                                                    Le commerçant souscrit au forfait de son choix via notre site internet, l’appli mobile, ou le réseau partenaire
+                                                        Souscrire au forfait choisi via le site internet, appli mobile ou réseau partenaire
                                                     </div>
                                                 </div>
                                             </a>
@@ -563,12 +577,12 @@
                                                     </div>
                                                 </div>
                                                 <div class="desc_wrapper">
-                                                    <h4>Accès</h4>
+                                                    <!-- <h4>Accès</h4> -->
                                                     <div class="desc">
-                                                    Le commerçant reçoit ses données de connexion et peut accéder au service
+                                                        Recevoir les données de connexion et accéder au service
                                                     </div>
                                                     <br>
-                                                    <a class="button button_full_width button_size_2 button_js" href="#"><span class="button_label">Souscrire au Service</span></a>
+                                                    <a class="button button_full_width button_size_2 button_js" href="?page=onboarding"><span class="button_label">Souscrire au Service</span></a>
 
                                                 </div>
                                             </a>
@@ -578,9 +592,30 @@
                             </div>
                         </div>
                         
+                        <div class="section mcb-section" style="padding-top:0px; padding-bottom:0px; background-color: #0C9CB2">
+                         
+                         <div class="section_wrapper mcb-section-inner">
+                             
+                             <div class="wrap mcb-wrap one valign-top clearfix" style="padding:50px 0 0 5%">
+                                 <div class="mcb-wrap-inner">
+                                     <div class="column mcb-column one column_column">
+                                         <div class="column_attr clearfix align_center">
 
+                                             <a class="button  button_right button_size_2 button_theme button_js kill_the_icon" href="?page=opposition-sur-cheque">
+                                                 <span class="button_icon">
+                                                     <i class="icon-right-circled" style="color: #fff"></i>
+                                                 </span>
+                                                 <span class="button_label" style="">En savoir plus sur l'opposition sur chèque</span></a> 
+                                             
+                                         </div>
+                                     </div>
+                                                                   
+                                 </div>
+                             </div>
+                         </div>
+                        </div>
 
-                         <?php include('includes/plus_dinfo.php'); ?>
+                         <!-- <?php include('includes/plus_dinfo.php'); ?> -->
 
                         
 
@@ -605,6 +640,8 @@
     <script src="js/translate3d.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/services.js"></script>
+
+    <script src="js/scripts/index.js"></script>
 
 
 </body>

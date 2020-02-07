@@ -1,5 +1,5 @@
 <div class="top_bar_right_wrapper">
-    <a href="#" class="button button_theme button_js action_button dropdown" style=" background-color: rgb(48, 160, 161);" target="_blank">
+    <a href class="button button_theme button_js action_button dropdown noredirect" style=" background-color: #0C9CB2;">
         <span class="button_label">Espace Client</span>
         <div class="dropdown-content">
             <a href="#">Vérifier un chèque</a>
@@ -7,7 +7,7 @@
             <a href="#">Consulter l’historique</a>
         </div>
     </a>
-    <a href="onboarding.php" class="button button_theme button_js action_button onboarding_trigger" target="_blank">
+    <a href="?page=onboarding" class="button action_button" target="_blank">
         <span class="button_label">S'inscrire</span>
     </a>
     <!-- <div class="dropdown">
@@ -25,6 +25,22 @@
 
 
 </div>
+
+<script>
+
+(function($) {
+    
+    $('.noredirect').on('click', function(e) {
+
+        e.preventDefault();
+
+        console.log('test');
+    });
+})(jQuery);
+
+ 
+
+</script>
 
 <style>
     .turquoise{

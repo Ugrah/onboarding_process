@@ -1,3 +1,8 @@
 .hidden {
     display: none;
 }
+
+.cic-menu-service {
+    background-color: #C40F11;
+    color: #fff;
+}
