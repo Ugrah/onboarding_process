@@ -707,7 +707,8 @@
                     $(`div#step-${step}`).slideUp({ duration: 2000, easing: 'swing' });
                     var body = $("html, body");
                     var passedStep = `div#step-${step}`;
-                    body.stop().animate({scrollTop: ($(document).scrollTop() - $(passedStep).height()) }, 2000, 'swing', function() { 
+                    var paddingScroll = $(passedStep).height() * (20/100);
+                    body.stop().animate({scrollTop: ($(document).scrollTop() - $(passedStep).height() - paddingScroll) }, 2000, 'swing', function() { 
                         // alert("Finished animating");
                     });
                     // console.log( $(passedStep).height() );
@@ -806,7 +807,8 @@
                                 step ++;
                                 $(`div#step-${step}`).fadeIn({ duration: 'slow', easing: 'swing' }); 
                                 var body = $("html, body");
-                                body.stop().animate({scrollTop: ($(document).scrollTop() + $(passedStep).height()) }, 2000, 'swing', function() { 
+                                var paddingScroll = $(passedStep).height() * (20/100);
+                                body.stop().animate({scrollTop: ($(document).scrollTop() + $(passedStep).height() + paddingScroll) }, 2000, 'swing', function() { 
                                     // alert("Finished animating");
                                 });
 
